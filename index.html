@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dashboard analitik DataCo Global: risiko keterlambatan pengiriman, analisis operasional, machine learning, dan graph analytics.">
+  <title>Dashboard DataCo Global — Risiko Keterlambatan Pengiriman</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Lompat ke konten</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+        </span>
+        <span class="brand__name">DataCo Global</span>
+      </div>
+      <nav class="tabs-nav" aria-label="Bagian dashboard">
+        <div class="tabs" role="tablist" aria-label="Bagian dashboard">
+          <button class="tab" role="tab" id="tab-ringkasan" aria-controls="panel-ringkasan" aria-selected="true">
+            <svg class="tab__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            <span>Ringkasan Eksekutif</span>
+          </button>
+          <button class="tab" role="tab" id="tab-operasional" aria-controls="panel-operasional" aria-selected="false" tabindex="-1">
+            <svg class="tab__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 4h14v12H1z"/><path d="M15 8h4l4 4v4h-8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            <span>Analisis Operasional</span>
+          </button>
+          <button class="tab" role="tab" id="tab-ml" aria-controls="panel-ml" aria-selected="false" tabindex="-1">
+            <svg class="tab__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg>
+            <span>Machine Learning</span>
+          </button>
+          <button class="tab" role="tab" id="tab-graph" aria-controls="panel-graph" aria-selected="false" tabindex="-1">
+            <svg class="tab__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+            <span>Graph Analytics</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <noscript><div class="load-error">Dashboard ini membutuhkan JavaScript. Aktifkan JavaScript lalu muat ulang halaman.</div></noscript>
+  <div id="load-error" class="load-error" role="alert" hidden></div>
+
+  <main class="content" id="main">
+    <!-- ================= Tab 1 — Ringkasan Eksekutif ================= -->
+    <section class="tab-panel" id="panel-ringkasan" role="tabpanel" aria-labelledby="tab-ringkasan" tabindex="0">
+      <div class="page-head">
+        <div>
+          <h1 class="page-title">Risiko Keterlambatan Pengiriman</h1>
+          <p class="page-subtitle" id="coverage-label">180.519 order · Jan 2015 – Jan 2018</p>
+        </div>
+        <div class="toolbar" role="group" aria-label="Filter ringkasan eksekutif">
+          <div class="toolbar__item">
+            <span class="toolbar__label" id="lbl-moda-ringkasan">Moda pengiriman</span>
+            <details class="ms" id="ms-moda-ringkasan"></details>
+          </div>
+          <button type="button" class="btn" id="reset-ringkasan">Reset</button>
+          <details class="info">
+            <summary class="info__btn" aria-label="Cakupan filter">i</summary>
+            <div class="info__pop">
+              <p><strong>Berlaku untuk:</strong> Late Rate per Moda.</p>
+              <p><strong>Tidak berlaku untuk:</strong> kartu KPI, kedua grafik tren, dan peta, karena datanya tidak dirinci per moda.</p>
+            </div>
+          </details>
+          <p class="sr-only" id="filter-ringkasan-status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div id="kpi-row" class="kpis"></div>
+
+      <div class="grid grid--7-5">
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-tren-volume">Tren Volume Order</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Tren Volume Order">i</summary>
+              <div class="info__pop" id="d-tren-volume"><p>Jumlah order per bulan, Januari 2015 sampai Januari 2018.</p><p class="info__src">Sumber: d01_tren_bulanan</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-tren-volume" role="img" aria-labelledby="t-tren-volume" aria-describedby="d-tren-volume"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-moda">Late Rate per Moda</h2>
+            <span class="tag tag--accent" id="moda-filter-flag" hidden>Terfilter</span>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Late Rate per Moda">i</summary>
+              <div class="info__pop" id="d-moda"><p>Persentase order terlambat per moda pengiriman, diurutkan dari yang tertinggi. Dipengaruhi filter moda.</p><p class="info__src">Sumber: d02_moda</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-moda" role="img" aria-labelledby="t-moda" aria-describedby="d-moda"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-tren-late">Tren Late Rate</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Tren Late Rate">i</summary>
+              <div class="info__pop" id="d-tren-late"><p>Persentase order terlambat per bulan. Garis putus-putus = late rate keseluruhan.</p><p class="info__src">Sumber: d01_tren_bulanan · garis acuan: kpi</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-tren-late" role="img" aria-labelledby="t-tren-late" aria-describedby="d-tren-late"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-geo">Peta Sebaran Pelanggan</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Peta Sebaran Pelanggan">i</summary>
+              <div class="info__pop" id="d-geo"><p>Lokasi pelanggan. Ukuran titik = Jumlah Order, warna = Late Rate.</p><p class="info__src">Sumber: d16_geo</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-geo" role="img" aria-labelledby="t-geo" aria-describedby="d-geo"></div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= Tab 2 — Analisis Operasional ================= -->
+    <section class="tab-panel" id="panel-operasional" role="tabpanel" aria-labelledby="tab-operasional" tabindex="0" hidden>
+      <div class="page-head">
+        <h1 class="page-title">Performa Operasional</h1>
+        <div class="toolbar" role="group" aria-label="Filter analisis operasional">
+          <div class="toolbar__item">
+            <span class="toolbar__label" id="lbl-region">Region</span>
+            <details class="ms" id="ms-region"></details>
+          </div>
+          <div class="toolbar__item">
+            <span class="toolbar__label" id="lbl-moda-op">Moda</span>
+            <details class="ms" id="ms-moda-op"></details>
+          </div>
+          <button type="button" class="btn" id="reset-operasional">Reset</button>
+          <details class="info">
+            <summary class="info__btn" aria-label="Cakupan filter">i</summary>
+            <div class="info__pop" id="filter-operasional-note"></div>
+          </details>
+          <p class="sr-only" id="filter-operasional-status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <!-- Insight: teks ditulis mahasiswa. Bukti utama diambil otomatis dari data oleh app.js. -->
+      <section class="insight" aria-labelledby="insight-operasional-title">
+        <div class="insight__main">
+          <h2 class="insight__eyebrow" id="insight-operasional-title">Insight</h2>
+          <p class="insight__text" id="insight-operasional-text">Dari total 180.519 order yang dianalisis, tingkat keterlambatan pengiriman mencapai 54,83%. Pada kombinasi pengiriman First Class menuju Caribbean, tercatat late rate sebesar 94,89% dari 1.193 order. Sementara itu, Estados Unidos menjadi salah satu tujuan dengan volume pengiriman terbesar, yaitu 24.840 order dengan late rate 55,03%.</p>
+          <button type="button" class="link-btn" data-clamp="insight-operasional-text" aria-controls="insight-operasional-text" aria-expanded="false" hidden>Selengkapnya</button>
+        </div>
+        <ul class="evidence" data-support="operasional" aria-label="Bukti utama"></ul>
+      </section>
+
+      <div class="grid grid--7-5">
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-region">Performa Region</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Performa Region">i</summary>
+              <div class="info__pop"><p>Satu baris per region. Klik judul kolom untuk mengurutkan. Dipengaruhi filter Region.</p><p class="info__src">Sumber: d04_region_crosstab</p></div>
+            </details>
+          </figcaption>
+          <div class="table-wrap" id="table-region"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-negara">Negara Tujuan Terbesar</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Negara Tujuan Terbesar">i</summary>
+              <div class="info__pop" id="d-negara"><p>15 negara tujuan dengan Jumlah Order terbanyak. Tidak dipengaruhi filter.</p><p class="info__src">Sumber: d07_negara</p></div>
+            </details>
+          </figcaption>
+          <div class="chart chart--fill" id="chart-negara" role="img" aria-labelledby="t-negara" aria-describedby="d-negara"></div>
+        </figure>
+      </div>
+      <figure class="card">
+        <figcaption class="card__head">
+          <h2 class="card__title" id="t-heatmap">Heatmap Moda terhadap Region</h2>
+          <details class="info">
+            <summary class="info__btn" aria-label="Info: Heatmap Moda terhadap Region">i</summary>
+            <div class="info__pop" id="d-heatmap"><p>Late Rate tiap kombinasi moda dan region. Makin gelap, makin tinggi. Dipengaruhi filter Region dan Moda.</p><p class="info__src">Sumber: d06_matriks</p></div>
+          </details>
+        </figcaption>
+        <div class="scroll-x">
+          <div class="chart chart--heat chart--wide" id="chart-heatmap" role="img" aria-labelledby="t-heatmap" aria-describedby="d-heatmap"></div>
+        </div>
+      </figure>
+    </section>
+
+    <!-- ================= Tab 3 — Machine Learning ================= -->
+    <section class="tab-panel" id="panel-ml" role="tabpanel" aria-labelledby="tab-ml" tabindex="0" hidden>
+      <div class="page-head">
+        <h1 class="page-title">Evaluasi Model Prediksi</h1>
+      </div>
+
+      <section class="insight" aria-labelledby="insight-ml-title">
+        <div class="insight__main">
+          <h2 class="insight__eyebrow" id="insight-ml-title">Insight</h2>
+          <p class="insight__text" id="insight-ml-text">Hasil evaluasi menunjukkan bahwa model terbaik memperoleh accuracy sebesar 71,82% dan ROC AUC sebesar 0,7714. Namun, pada data pengujian masih terdapat 8.151 keterlambatan yang tidak berhasil dideteksi. Sebanyak 98,71% dari kasus yang tidak terdeteksi tersebut berasal dari pengiriman Standard Class. Recall model pada moda Standard Class tercatat sebesar 1,48%.</p>
+          <button type="button" class="link-btn" data-clamp="insight-ml-text" aria-controls="insight-ml-text" aria-expanded="false" hidden>Selengkapnya</button>
+        </div>
+        <ul class="evidence" data-support="ml" aria-label="Bukti utama"></ul>
+      </section>
+
+      <div class="grid grid--7-5">
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-model">Perbandingan Model</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Perbandingan Model">i</summary>
+              <div class="info__pop" id="d-model"></div>
+            </details>
+          </figcaption>
+          <div class="table-wrap" id="table-model"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-fitur">Feature Importance</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Feature Importance">i</summary>
+              <div class="info__pop" id="d-fitur"><p>Bobot kontribusi tiap kelompok fitur terhadap model, diurutkan dari yang terbesar.</p><p class="info__src">Sumber: d10_fitur</p></div>
+            </details>
+          </figcaption>
+          <div class="chart chart--fill" id="chart-fitur" role="img" aria-labelledby="t-fitur" aria-describedby="d-fitur"></div>
+        </figure>
+      </div>
+
+      <figure class="card card--threshold">
+        <figcaption class="card__head">
+          <h2 class="card__title" id="t-ambang">Kurva Ambang</h2>
+          <details class="info">
+            <summary class="info__btn" aria-label="Info: Kurva Ambang">i</summary>
+            <div class="info__pop" id="d-ambang"><p>Nilai tiap metrik pada ambang klasifikasi 0,02 sampai 0,98. Nilai dibaca langsung dari data pada kelipatan 0,02, tanpa interpolasi.</p><p class="info__src">Sumber: d11_ambang</p></div>
+          </details>
+        </figcaption>
+        <div class="threshold-layout">
+          <div class="chart" id="chart-ambang" role="img" aria-labelledby="t-ambang" aria-describedby="d-ambang"></div>
+          <div class="threshold">
+            <label for="slider-ambang" class="threshold__label">Ambang klasifikasi</label>
+            <output id="slider-ambang-value" for="slider-ambang" class="threshold__value">0,50</output>
+            <input type="range" id="slider-ambang" min="0.02" max="0.98" step="0.02" value="0.50">
+            <div class="threshold__scale" aria-hidden="true"><span>0,02</span><span>0,50</span><span>0,98</span></div>
+            <div class="threshold__readout" id="slider-ambang-readout" aria-live="polite"></div>
+            <button type="button" class="btn btn--block" id="slider-ambang-reset">Kembalikan ke 0,50</button>
+          </div>
+        </div>
+      </figure>
+
+      <div class="grid grid--5-7">
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-deteksi">Deteksi per Moda</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Deteksi per Moda">i</summary>
+              <div class="info__pop" id="d-deteksi"><p><strong>Late rate sebenarnya:</strong> persentase order yang benar-benar terlambat.</p><p><strong>Terdeteksi model:</strong> persentase order terlambat yang diprediksi terlambat (Recall Model pada d02_moda).</p><p class="info__src">Sumber: d03_deteksi_moda · tooltip: d02_moda</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-deteksi" role="img" aria-labelledby="t-deteksi" aria-describedby="d-deteksi"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-stabilitas">Stabilitas Bulanan</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Stabilitas Bulanan">i</summary>
+              <div class="info__pop" id="d-stabilitas"><p>Metrik model per bulan pada periode uji, April 2017 sampai Januari 2018.</p><p class="info__src">Sumber: d17_stabilitas</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-stabilitas" role="img" aria-labelledby="t-stabilitas" aria-describedby="d-stabilitas"></div>
+        </figure>
+      </div>
+
+      <details class="collapse">
+        <summary>Definisi metrik evaluasi</summary>
+        <dl class="glossary">
+          <div><dt>Accuracy</dt><dd>Persentase prediksi yang benar, baik order terlambat maupun tepat waktu, dari seluruh order yang diuji.</dd></div>
+          <div><dt>Recall (kelas positif)</dt><dd>Persentase order yang benar-benar terlambat dan diprediksi terlambat oleh model.</dd></div>
+          <div><dt>Specificity</dt><dd>Persentase order tepat waktu yang diprediksi tepat waktu oleh model.</dd></div>
+          <div><dt>F1 Score</dt><dd>Rata-rata harmonik precision dan recall. Nilainya tinggi hanya bila keduanya tinggi.</dd></div>
+          <div><dt>ROC AUC</dt><dd>Kemampuan model membedakan order terlambat dan tepat waktu di semua ambang. 0,5 setara tebakan acak, 1 berarti sempurna.</dd></div>
+          <div><dt>Ambang klasifikasi</dt><dd>Batas probabilitas. Order dengan probabilitas terlambat di atas ambang diprediksi terlambat.</dd></div>
+          <div><dt>Precision</dt><dd>Persentase prediksi "terlambat" yang memang terlambat. Tidak tersedia dalam data proyek ini.</dd></div>
+        </dl>
+      </details>
+    </section>
+
+    <!-- ================= Tab 4 — Graph Analytics ================= -->
+    <section class="tab-panel" id="panel-graph" role="tabpanel" aria-labelledby="tab-graph" tabindex="0" hidden>
+      <div class="page-head">
+        <h1 class="page-title">Jaringan Pengiriman</h1>
+      </div>
+
+      <section class="insight" aria-labelledby="insight-graph-title">
+        <div class="insight__main">
+          <h2 class="insight__eyebrow" id="insight-graph-title">Insight</h2>
+          <p class="insight__text" id="insight-graph-text">Analisis jaringan pengiriman mencakup 142 node yang merepresentasikan lokasi pelanggan dan negara tujuan. Node Puerto Rico (PR) memiliki degree sebesar 106 dan mencakup 68.925 order dengan late rate 54,72%. Salah satu relasi yang memiliki volume tinggi adalah PR menuju Estados Unidos, dengan 9.398 order dan tingkat keterlambatan 54,68%.</p>
+          <button type="button" class="link-btn" data-clamp="insight-graph-text" aria-controls="insight-graph-text" aria-expanded="false" hidden>Selengkapnya</button>
+        </div>
+        <ul class="evidence" data-support="graph" aria-label="Bukti utama"></ul>
+      </section>
+
+      <figure class="card">
+        <figcaption class="card__head">
+          <h2 class="card__title" id="t-network">Jaringan Relasi Pengiriman</h2>
+          <span class="tag" id="network-subset"></span>
+          <details class="info">
+            <summary class="info__btn" aria-label="Info: Jaringan Relasi Pengiriman">i</summary>
+            <div class="info__pop" id="d-network"></div>
+          </details>
+        </figcaption>
+        <div class="network">
+          <aside class="network__panel" aria-label="Kontrol jaringan">
+            <div class="network__stats" id="network-meta"></div>
+            <div class="network__control">
+              <label for="network-focus" class="toolbar__label">Sorot node</label>
+              <select id="network-focus" class="select"></select>
+            </div>
+            <div class="network__legend" aria-label="Legenda">
+              <span class="legend-item"><span class="legend-dot legend-dot--navy" aria-hidden="true"></span>Lokasi pelanggan</span>
+              <span class="legend-item"><span class="legend-dot legend-dot--diamond" aria-hidden="true"></span>Negara tujuan</span>
+              <span class="legend-item"><span class="legend-line" aria-hidden="true"></span>Tebal garis = Jumlah Order</span>
+              <span class="legend-item"><span class="legend-size" aria-hidden="true"></span>Ukuran node = Jumlah Order</span>
+            </div>
+          </aside>
+          <div class="network__canvas scroll-x">
+            <div class="chart chart--network chart--wide" id="chart-network" role="img" aria-labelledby="t-network" aria-describedby="d-network"></div>
+          </div>
+        </div>
+      </figure>
+
+      <div class="grid grid--7-5">
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-sentralitas">Scatter Sentralitas</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Scatter Sentralitas">i</summary>
+              <div class="info__pop" id="d-sentralitas"><p>Betweenness terhadap Late Rate untuk seluruh node. Ukuran titik = Jumlah Order. Lima node dengan betweenness tertinggi diberi label.</p><p class="info__src">Sumber: d12_node</p></div>
+            </details>
+          </figcaption>
+          <div class="chart chart--fill" id="chart-sentralitas" role="img" aria-labelledby="t-sentralitas" aria-describedby="d-sentralitas"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-node">Node Paling Sentral</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Node Paling Sentral">i</summary>
+              <div class="info__pop"><p>Sepuluh node dengan betweenness tertinggi. Klik judul kolom untuk mengurutkan.</p><p class="info__src">Sumber: d13_node_crosstab</p></div>
+            </details>
+          </figcaption>
+          <div class="table-wrap" id="table-node"></div>
+        </figure>
+      </div>
+      <div class="grid grid--6-6">
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-kategori">Scatter Kategori Produk</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Scatter Kategori Produk">i</summary>
+              <div class="info__pop" id="d-kategori"><p>Degree Centrality terhadap Late Rate untuk kategori produk. Ukuran titik = Jumlah Order. Lima kategori dengan order terbanyak diberi label.</p><p class="info__src">Sumber: d15_kategori</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-kategori" role="img" aria-labelledby="t-kategori" aria-describedby="d-kategori"></div>
+        </figure>
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title" id="t-relasi">Relasi Terbesar</h2>
+            <details class="info">
+              <summary class="info__btn" aria-label="Info: Relasi Terbesar">i</summary>
+              <div class="info__pop" id="d-relasi"><p>Relasi lokasi pelanggan → negara tujuan dengan Jumlah Order terbanyak.</p><p class="info__src">Sumber: d14_relasi</p></div>
+            </details>
+          </figcaption>
+          <div class="chart" id="chart-relasi" role="img" aria-labelledby="t-relasi" aria-describedby="d-relasi"></div>
+        </figure>
+      </div>
+
+      <details class="collapse">
+        <summary>Definisi metrik graph</summary>
+        <dl class="glossary">
+          <div><dt>Node</dt><dd>Titik dalam jaringan, berupa lokasi pelanggan atau negara tujuan.</dd></div>
+          <div><dt>Relasi (edge)</dt><dd>Hubungan antara lokasi pelanggan dan negara tujuan yang memiliki order.</dd></div>
+          <div><dt>Degree</dt><dd>Jumlah node lain yang terhubung langsung dengan sebuah node.</dd></div>
+          <div><dt>Degree Centrality</dt><dd>Degree yang dinormalisasi terhadap jumlah koneksi maksimum, bernilai 0 sampai 1.</dd></div>
+          <div><dt>Betweenness</dt><dd>Seberapa sering sebuah node berada di jalur terpendek antara pasangan node lain, bernilai 0 sampai 1.</dd></div>
+          <div><dt>Closeness</dt><dd>Kebalikan rata-rata jarak terpendek sebuah node ke semua node lain. Makin tinggi, makin dekat.</dd></div>
+        </dl>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer">DataCo Global · Data historis: Jan 2015 – Jan 2018</footer>
+
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+  <script src="data/data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

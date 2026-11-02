@@ -1,0 +1,13 @@
+Model,Kerangka Kerja,Accuracy,ROC AUC,Recall
+Logistic Regression,Spark MLlib,0.7012,0.744,0.5587
+Random Forest,Spark MLlib,0.7182,0.7596,0.5881
+GBT,Spark MLlib,0.7153,0.7714,0.5889
+Decision Tree,Spark MLlib,0.7158,0.7662,0.5881
+Logistic Regression,scikit-learn,0.6932,0.7441,0.5399
+Random Forest,scikit-learn,0.7184,0.7571,0.5884
+GBT,scikit-learn,0.7179,0.7711,0.5897
+Decision Tree,scikit-learn,0.7153,0.7649,0.5879
+GBT @ ambang 0.50,Spark MLlib,0.7153,0.7714,0.5889
+GBT @ ambang 0.54,Spark MLlib,0.715,0.7714,0.5861
+GBT @ ambang 0.31,Spark MLlib,0.5798,0.7714,0.9849
+GBT @ ambang 0.06,Spark MLlib,0.5721,0.7714,1.0

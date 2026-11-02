@@ -1,0 +1,148 @@
+Ambang,Metrik,Nilai
+0.02,Accuracy,0.543
+0.02,Recall kelas positif,1.0
+0.02,Specificity,0.0
+0.04,Accuracy,0.5682
+0.04,Recall kelas positif,1.0
+0.04,Specificity,0.0551
+0.06,Accuracy,0.5691
+0.06,Recall kelas positif,1.0
+0.06,Specificity,0.057
+0.08,Accuracy,0.5691
+0.08,Recall kelas positif,1.0
+0.08,Specificity,0.057
+0.1,Accuracy,0.5691
+0.1,Recall kelas positif,1.0
+0.1,Specificity,0.057
+0.12,Accuracy,0.569
+0.12,Recall kelas positif,0.9994
+0.12,Specificity,0.0575
+0.14,Accuracy,0.5691
+0.14,Recall kelas positif,0.999
+0.14,Specificity,0.0582
+0.16,Accuracy,0.5691
+0.16,Recall kelas positif,0.999
+0.16,Specificity,0.0582
+0.18,Accuracy,0.5697
+0.18,Recall kelas positif,0.9984
+0.18,Specificity,0.0603
+0.2,Accuracy,0.5697
+0.2,Recall kelas positif,0.9983
+0.2,Specificity,0.0604
+0.22,Accuracy,0.5697
+0.22,Recall kelas positif,0.9976
+0.22,Specificity,0.0614
+0.24,Accuracy,0.5704
+0.24,Recall kelas positif,0.9973
+0.24,Specificity,0.0632
+0.26,Accuracy,0.5724
+0.26,Recall kelas positif,0.9911
+0.26,Specificity,0.0748
+0.28,Accuracy,0.5747
+0.28,Recall kelas positif,0.9882
+0.28,Specificity,0.0834
+0.3,Accuracy,0.5762
+0.3,Recall kelas positif,0.985
+0.3,Specificity,0.0904
+0.32,Accuracy,0.583
+0.32,Recall kelas positif,0.9727
+0.32,Specificity,0.12
+0.34,Accuracy,0.5941
+0.34,Recall kelas positif,0.9457
+0.34,Specificity,0.1762
+0.36,Accuracy,0.6262
+0.36,Recall kelas positif,0.8657
+0.36,Specificity,0.3417
+0.38,Accuracy,0.6297
+0.38,Recall kelas positif,0.8528
+0.38,Specificity,0.3646
+0.4,Accuracy,0.6755
+0.4,Recall kelas positif,0.691
+0.4,Specificity,0.657
+0.42,Accuracy,0.703
+0.42,Recall kelas positif,0.5968
+0.42,Specificity,0.8291
+0.44,Accuracy,0.7034
+0.44,Recall kelas positif,0.5917
+0.44,Specificity,0.836
+0.46,Accuracy,0.7054
+0.46,Recall kelas positif,0.5858
+0.46,Specificity,0.8475
+0.48,Accuracy,0.7059
+0.48,Recall kelas positif,0.5839
+0.48,Specificity,0.8509
+0.5,Accuracy,0.7033
+0.5,Recall kelas positif,0.5767
+0.5,Specificity,0.8537
+0.52,Accuracy,0.7049
+0.52,Recall kelas positif,0.5678
+0.52,Specificity,0.8678
+0.54,Accuracy,0.705
+0.54,Recall kelas positif,0.5648
+0.54,Specificity,0.8717
+0.56,Accuracy,0.704
+0.56,Recall kelas positif,0.5626
+0.56,Specificity,0.872
+0.58,Accuracy,0.7039
+0.58,Recall kelas positif,0.5616
+0.58,Specificity,0.873
+0.6,Accuracy,0.7026
+0.6,Recall kelas positif,0.5588
+0.6,Specificity,0.8734
+0.62,Accuracy,0.7018
+0.62,Recall kelas positif,0.5553
+0.62,Specificity,0.8758
+0.64,Accuracy,0.7022
+0.64,Recall kelas positif,0.5543
+0.64,Specificity,0.878
+0.66,Accuracy,0.7015
+0.66,Recall kelas positif,0.5519
+0.66,Specificity,0.8793
+0.68,Accuracy,0.6976
+0.68,Recall kelas positif,0.5364
+0.68,Specificity,0.8893
+0.7,Accuracy,0.6932
+0.7,Recall kelas positif,0.5228
+0.7,Specificity,0.8957
+0.72,Accuracy,0.6906
+0.72,Recall kelas positif,0.5108
+0.72,Specificity,0.9042
+0.74,Accuracy,0.682
+0.74,Recall kelas positif,0.4839
+0.74,Specificity,0.9174
+0.76,Accuracy,0.679
+0.76,Recall kelas positif,0.4764
+0.76,Specificity,0.9198
+0.78,Accuracy,0.6666
+0.78,Recall kelas positif,0.4417
+0.78,Specificity,0.9339
+0.8,Accuracy,0.6282
+0.8,Recall kelas positif,0.3426
+0.8,Specificity,0.9676
+0.82,Accuracy,0.6161
+0.82,Recall kelas positif,0.3135
+0.82,Specificity,0.9757
+0.84,Accuracy,0.6033
+0.84,Recall kelas positif,0.2821
+0.84,Specificity,0.9848
+0.86,Accuracy,0.5959
+0.86,Recall kelas positif,0.2649
+0.86,Specificity,0.9892
+0.88,Accuracy,0.5907
+0.88,Recall kelas positif,0.2527
+0.88,Specificity,0.9922
+0.9,Accuracy,0.5855
+0.9,Recall kelas positif,0.2393
+0.9,Specificity,0.997
+0.92,Accuracy,0.5841
+0.92,Recall kelas positif,0.2349
+0.92,Specificity,0.9992
+0.94,Accuracy,0.583
+0.94,Recall kelas positif,0.2321
+0.94,Specificity,1.0
+0.96,Accuracy,0.5818
+0.96,Recall kelas positif,0.2298
+0.96,Specificity,1.0
+0.98,Accuracy,0.457
+0.98,Recall kelas positif,0.0
+0.98,Specificity,1.0

@@ -1,0 +1,143 @@
+Node,Tipe Node,Degree,Betweenness,Closeness,Jumlah Order,Late Rate
+PR,Lokasi pelanggan,106,0.3702,0.8011,68925,0.5472
+NJ,Lokasi pelanggan,27,0.2773,0.4222,2619,0.525
+TX,Lokasi pelanggan,44,0.2438,0.47,8285,0.5504
+CA,Lokasi pelanggan,77,0.2311,0.6026,28487,0.5548
+Noruega,Negara tujuan,3,0.2227,0.4519,209,0.4881
+Arabia Saudí,Negara tujuan,6,0.202,0.4608,632,0.557
+NY,Lokasi pelanggan,53,0.1388,0.5,10632,0.5373
+Bélgica,Negara tujuan,4,0.1002,0.4548,413,0.552
+Argentina,Negara tujuan,12,0.0904,0.4796,1584,0.5139
+Nicaragua,Negara tujuan,18,0.0786,0.5,2764,0.5561
+Ecuador,Negara tujuan,3,0.0771,0.4519,195,0.6667
+LA,Lokasi pelanggan,9,0.0622,0.3811,516,0.5213
+Turquía,Negara tujuan,20,0.0498,0.5072,3198,0.5582
+FL,Lokasi pelanggan,38,0.0483,0.4519,4791,0.5373
+VA,Lokasi pelanggan,19,0.0454,0.4029,1351,0.5404
+Brasil,Negara tujuan,31,0.0433,0.5508,7853,0.5417
+CO,Lokasi pelanggan,20,0.0427,0.4052,1397,0.5075
+WA,Lokasi pelanggan,9,0.0341,0.3811,506,0.5751
+España,Negara tujuan,23,0.0311,0.5184,3668,0.5543
+IL,Lokasi pelanggan,42,0.0302,0.4638,6927,0.5655
+MI,Lokasi pelanggan,26,0.0297,0.4196,3127,0.5318
+Estados Unidos,Negara tujuan,36,0.0283,0.5732,24721,0.5501
+PA,Lokasi pelanggan,29,0.0271,0.4273,3114,0.5386
+Francia,Negara tujuan,33,0.0262,0.5595,13071,0.5547
+República Democrática del Congo,Negara tujuan,8,0.0209,0.4669,796,0.598
+Guatemala,Negara tujuan,16,0.0205,0.493,2472,0.5558
+Vietnam,Negara tujuan,6,0.0204,0.4608,531,0.499
+AZ,Lokasi pelanggan,22,0.0175,0.4099,2381,0.522
+El Salvador,Negara tujuan,17,0.0167,0.4965,3360,0.5637
+Italia,Negara tujuan,24,0.0153,0.5222,4772,0.5314
+Colombia,Negara tujuan,11,0.0142,0.4764,1494,0.5127
+MD,Lokasi pelanggan,22,0.0127,0.4099,1879,0.5721
+Reino Unido,Negara tujuan,27,0.0123,0.5341,7089,0.535
+Somalia,Negara tujuan,2,0.0122,0.449,89,0.7191
+India,Negara tujuan,20,0.0111,0.5072,4501,0.5639
+Honduras,Negara tujuan,18,0.0104,0.5,3338,0.5303
+MN,Lokasi pelanggan,6,0.0096,0.375,292,0.5822
+Argelia,Negara tujuan,5,0.0091,0.4578,347,0.513
+Pakistán,Negara tujuan,5,0.0089,0.4578,559,0.5438
+OH,Lokasi pelanggan,26,0.0086,0.4196,3366,0.5437
+Venezuela,Negara tujuan,7,0.0085,0.4638,759,0.5323
+República Dominicana,Negara tujuan,16,0.0082,0.493,3287,0.5488
+Nueva Zelanda,Negara tujuan,10,0.0055,0.4732,1296,0.5262
+DC,Lokasi pelanggan,4,0.0052,0.3711,222,0.536
+MO,Lokasi pelanggan,14,0.0049,0.3917,894,0.5369
+GA,Lokasi pelanggan,21,0.0049,0.4075,1876,0.5597
+HI,Lokasi pelanggan,14,0.0046,0.3917,823,0.5407
+Nigeria,Negara tujuan,14,0.0046,0.4862,2022,0.5316
+OR,Lokasi pelanggan,14,0.0045,0.3917,1071,0.5555
+Indonesia,Negara tujuan,22,0.0035,0.5146,3971,0.5475
+México,Negara tujuan,34,0.0028,0.564,13056,0.5508
+CT,Lokasi pelanggan,9,0.0025,0.3811,608,0.5872
+NV,Lokasi pelanggan,12,0.0024,0.3874,907,0.58
+Alemania,Negara tujuan,29,0.0022,0.5423,9387,0.5646
+China,Negara tujuan,23,0.0019,0.5184,5494,0.5444
+Australia,Negara tujuan,30,0.0018,0.5465,8356,0.5424
+Austria,Negara tujuan,8,0.0018,0.4669,1089,0.5886
+UT,Lokasi pelanggan,8,0.0018,0.379,536,0.5392
+IN,Lokasi pelanggan,6,0.0016,0.375,270,0.5296
+TN,Lokasi pelanggan,16,0.0015,0.3961,1094,0.5329
+NM,Lokasi pelanggan,8,0.0014,0.379,462,0.6753
+Marruecos,Negara tujuan,7,0.0013,0.4638,883,0.5617
+NC,Lokasi pelanggan,18,0.0011,0.4006,1489,0.5809
+Cuba,Negara tujuan,18,0.0011,0.5,3285,0.5114
+Países Bajos,Negara tujuan,11,0.0009,0.4764,1654,0.5466
+KS,Lokasi pelanggan,4,0.0008,0.3711,187,0.5829
+Ucrania,Negara tujuan,7,0.0008,0.4638,759,0.5521
+Filipinas,Negara tujuan,12,0.0005,0.4796,1789,0.5528
+MA,Lokasi pelanggan,13,0.0004,0.3895,1075,0.5451
+WI,Lokasi pelanggan,7,0.0003,0.377,402,0.5149
+KY,Lokasi pelanggan,3,0.0003,0.3691,141,0.5745
+Suecia,Negara tujuan,5,0.0003,0.4578,645,0.6295
+Panamá,Negara tujuan,10,0.0002,0.4732,1562,0.5038
+Rusia,Negara tujuan,5,0.0,0.4578,776,0.5528
+Finlandia,Negara tujuan,2,0.0,0.449,179,0.4693
+Canada,Negara tujuan,5,0.0,0.4578,713,0.5105
+Egipto,Negara tujuan,6,0.0,0.4608,890,0.5607
+Myanmar (Birmania),Negara tujuan,3,0.0,0.4519,278,0.5863
+Togo,Negara tujuan,1,0.0,0.4462,53,0.3019
+Zambia,Negara tujuan,2,0.0,0.449,137,0.5402
+Senegal,Negara tujuan,2,0.0,0.449,146,0.4452
+Madagascar,Negara tujuan,1,0.0,0.4462,61,0.623
+Israel,Negara tujuan,2,0.0,0.449,128,0.6328
+Uzbekistán,Negara tujuan,1,0.0,0.4462,51,0.3333
+Costa de Marfil,Negara tujuan,2,0.0,0.449,102,0.6471
+Hungría,Negara tujuan,2,0.0,0.449,108,0.5371
+SudAfrica,Negara tujuan,6,0.0,0.4608,765,0.5085
+Bangladés,Negara tujuan,2,0.0,0.449,261,0.5402
+Japón,Negara tujuan,3,0.0,0.4519,511,0.5127
+Irlanda,Negara tujuan,2,0.0,0.449,279,0.5125
+Bielorrusia,Negara tujuan,1,0.0,0.4462,97,0.5979
+Rumania,Negara tujuan,3,0.0,0.4519,312,0.5897
+Polonia,Negara tujuan,5,0.0,0.4578,486,0.5762
+Singapur,Negara tujuan,2,0.0,0.449,263,0.5437
+RI,Lokasi pelanggan,1,0.0,0.3653,55,0.5818
+Martinica,Negara tujuan,1,0.0,0.4462,59,0.5424
+Tailandia,Negara tujuan,4,0.0,0.4548,585,0.5761
+Bolivia,Negara tujuan,2,0.0,0.449,127,0.5984
+Chile,Negara tujuan,4,0.0,0.4548,490,0.5877
+Georgia,Negara tujuan,1,0.0,0.4462,31,0.8065
+Yemen,Negara tujuan,1,0.0,0.4462,31,0.8387
+Mozambique,Negara tujuan,2,0.0,0.449,131,0.5801
+Irak,Negara tujuan,6,0.0,0.4608,722,0.4972
+Malasia,Negara tujuan,3,0.0,0.4519,343,0.6589
+OK,Lokasi pelanggan,1,0.0,0.3653,30,0.1667
+Croacia,Negara tujuan,1,0.0,0.4462,37,0.6486
+Kazajistán,Negara tujuan,2,0.0,0.449,137,0.562
+República Checa,Negara tujuan,1,0.0,0.4462,67,0.6418
+SC,Lokasi pelanggan,3,0.0,0.3691,183,0.4918
+Portugal,Negara tujuan,2,0.0,0.449,193,0.5078
+Kenia,Negara tujuan,2,0.0,0.449,124,0.5242
+Trinidad y Tobago,Negara tujuan,1,0.0,0.4462,53,0.4528
+Irán,Negara tujuan,7,0.0,0.4638,1136,0.529
+Suiza,Negara tujuan,2,0.0,0.449,200,0.555
+Corea del Sur,Negara tujuan,3,0.0,0.4519,348,0.592
+Jamaica,Negara tujuan,2,0.0,0.449,110,0.4909
+Mongolia,Negara tujuan,1,0.0,0.4462,36,0.6667
+Uganda,Negara tujuan,1,0.0,0.4462,32,0.2813
+Nepal,Negara tujuan,1,0.0,0.4462,35,0.4286
+Níger,Negara tujuan,1,0.0,0.4462,47,0.617
+Angola,Negara tujuan,1,0.0,0.4462,114,0.6579
+Tanzania,Negara tujuan,2,0.0,0.449,180,0.5556
+Dinamarca,Negara tujuan,2,0.0,0.449,151,0.4834
+Ghana,Negara tujuan,2,0.0,0.449,109,0.5137
+Barbados,Negara tujuan,1,0.0,0.4462,51,0.6275
+Kirguistán,Negara tujuan,1,0.0,0.4462,36,0.5278
+Paraguay,Negara tujuan,1,0.0,0.4462,35,0.5714
+Haití,Negara tujuan,3,0.0,0.4519,334,0.521
+Benín,Negara tujuan,1,0.0,0.4462,41,0.5366
+Uruguay,Negara tujuan,1,0.0,0.4462,68,0.7794
+Perú,Negara tujuan,3,0.0,0.4519,449,0.5635
+Zimbabue,Negara tujuan,1,0.0,0.4462,74,0.6622
+Camerún,Negara tujuan,2,0.0,0.449,149,0.5369
+Sudán,Negara tujuan,2,0.0,0.449,125,0.472
+Afganistán,Negara tujuan,1,0.0,0.4462,59,0.5763
+Lituania,Negara tujuan,1,0.0,0.4462,56,0.7321
+Bulgaria,Negara tujuan,1,0.0,0.4462,69,0.4638
+Mali,Negara tujuan,1,0.0,0.4462,55,0.7091
+Ruanda,Negara tujuan,1,0.0,0.4462,39,0.5128
+Libia,Negara tujuan,1,0.0,0.4462,32,0.4688
+Camboya,Negara tujuan,1,0.0,0.4462,35,0.7143
+Jordania,Negara tujuan,1,0.0,0.4462,39,0.5385

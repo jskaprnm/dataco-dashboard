@@ -1,0 +1,33 @@
+Kategori Produk,Degree Centrality,Betweenness,Late Rate,Jumlah Order
+Tennis & Racquet,0.3226,0.2452,0.5579,328
+Electronics,0.5806,0.2419,0.5608,3156
+Shop By Sport,0.8387,0.2204,0.5515,10984
+Cleats,1.0,0.1204,0.5497,24551
+Strength Training,0.2581,0.1129,0.5766,111
+Baseball & Softball,0.3871,0.1086,0.5522,632
+Camping & Hiking,0.9032,0.0882,0.5453,13729
+Hockey,0.3871,0.0548,0.5358,614
+Cardio Equipment,0.9032,0.0419,0.545,12487
+Women's Golf Clubs,0.2903,0.0398,0.5359,181
+Women's Apparel,0.9355,0.0366,0.5456,21035
+Men's Footwear,0.9355,0.0258,0.5449,22246
+Hunting & Shooting,0.3226,0.0118,0.5614,440
+Water Sports,0.9032,0.0108,0.5481,15540
+Soccer,0.2581,0.0086,0.5435,138
+Basketball,0.0645,0.0065,0.5522,67
+Accessories,0.5161,0.0065,0.5697,1780
+Golf Bags & Carts,0.0645,0.0065,0.6885,61
+Girls' Apparel,0.4516,0.0043,0.5529,1201
+Golf Balls,0.4839,0.0043,0.5458,1475
+Golf Gloves,0.4516,0.0022,0.5626,1070
+As Seen on  TV!,0.0323,0.0,0.5735,68
+Lacrosse,0.2903,0.0,0.6006,343
+Golf Shoes,0.2903,0.0,0.5553,524
+Men's Golf Clubs,0.2903,0.0,0.477,283
+Indoor/Outdoor Games,0.9032,0.0,0.5475,19298
+Fitness Accessories,0.2903,0.0,0.5696,309
+Golf Apparel,0.2903,0.0,0.5193,441
+Boxing & MMA,0.2903,0.0,0.5626,423
+Trade-In,0.4194,0.0,0.5565,974
+Fishing,0.9032,0.0,0.5493,17325
+Kids' Golf Clubs,0.2903,0.0,0.5339,384

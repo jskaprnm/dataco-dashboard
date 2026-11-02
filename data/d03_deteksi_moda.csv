@@ -1,0 +1,9 @@
+Shipping Mode,Ukuran,Nilai
+Standard Class,Late rate sebenarnya,0.3775
+Standard Class,Terdeteksi model,0.0148
+Second Class,Late rate sebenarnya,0.7615
+Second Class,Terdeteksi model,0.9939
+First Class,Late rate sebenarnya,0.9452
+First Class,Terdeteksi model,0.9938
+Same Day,Late rate sebenarnya,0.5038
+Same Day,Terdeteksi model,0.9605

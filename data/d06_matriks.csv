@@ -1,0 +1,49 @@
+Shipping Mode,Order Region,Jumlah Order,Late Rate
+First Class,Caribbean,1193,0.9489
+First Class,Central America,4382,0.955
+First Class,East of USA,1089,0.9642
+First Class,Eastern Asia,1043,0.9482
+First Class,Northern Europe,1418,0.9598
+First Class,Oceania,1366,0.9297
+First Class,South America,2311,0.9321
+First Class,South Asia,1283,0.9665
+First Class,Southeast Asia,1552,0.9549
+First Class,Southern Europe,1504,0.9721
+First Class,West of USA,1149,0.933
+First Class,Western Europe,4312,0.9525
+Same Day,Caribbean,451,0.4967
+Same Day,Central America,1423,0.4575
+Same Day,East of USA,418,0.4785
+Same Day,Eastern Asia,406,0.4754
+Same Day,Northern Europe,517,0.3985
+Same Day,Oceania,647,0.4065
+Same Day,South America,776,0.5129
+Same Day,South Asia,379,0.496
+Same Day,Southeast Asia,451,0.408
+Same Day,Southern Europe,569,0.5325
+Same Day,West of USA,425,0.4824
+Same Day,Western Europe,1495,0.4736
+Second Class,Caribbean,1631,0.783
+Second Class,Central America,5481,0.75
+Second Class,East of USA,1278,0.748
+Second Class,Eastern Asia,1406,0.7937
+Second Class,Northern Europe,1953,0.7624
+Second Class,Oceania,2035,0.7676
+Second Class,South America,2827,0.7506
+Second Class,South Asia,1552,0.7719
+Second Class,Southeast Asia,1833,0.761
+Second Class,Southern Europe,1698,0.7615
+Second Class,West of USA,1632,0.7684
+Second Class,Western Europe,5438,0.779
+Standard Class,Caribbean,5043,0.3534
+Standard Class,Central America,17055,0.3853
+Standard Class,East of USA,4130,0.3978
+Standard Class,Eastern Asia,4425,0.3745
+Standard Class,Northern Europe,5904,0.3787
+Standard Class,Oceania,6100,0.3913
+Standard Class,South America,9021,0.381
+Standard Class,South Asia,4517,0.3817
+Standard Class,Southeast Asia,5703,0.3921
+Standard Class,Southern Europe,5660,0.3659
+Standard Class,West of USA,4787,0.3723
+Standard Class,Western Europe,15864,0.3838

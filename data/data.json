@@ -1,0 +1,4780 @@
+{
+ "d01_tren_bulanan": [
+  {
+   "Bulan": "2015-01",
+   "Jumlah Order": 5322,
+   "Late Rate": 0.5411,
+   "Total Sales": 1051590.08
+  },
+  {
+   "Bulan": "2015-02",
+   "Jumlah Order": 4729,
+   "Late Rate": 0.5485,
+   "Total Sales": 927009.9
+  },
+  {
+   "Bulan": "2015-03",
+   "Jumlah Order": 5362,
+   "Late Rate": 0.5476,
+   "Total Sales": 1051253.69
+  },
+  {
+   "Bulan": "2015-04",
+   "Jumlah Order": 5126,
+   "Late Rate": 0.5384,
+   "Total Sales": 1014463.28
+  },
+  {
+   "Bulan": "2015-05",
+   "Jumlah Order": 5357,
+   "Late Rate": 0.5509,
+   "Total Sales": 1050478.44
+  },
+  {
+   "Bulan": "2015-06",
+   "Jumlah Order": 5134,
+   "Late Rate": 0.5411,
+   "Total Sales": 1024006.17
+  },
+  {
+   "Bulan": "2015-07",
+   "Jumlah Order": 5299,
+   "Late Rate": 0.5546,
+   "Total Sales": 1038081.19
+  },
+  {
+   "Bulan": "2015-08",
+   "Jumlah Order": 5273,
+   "Late Rate": 0.5568,
+   "Total Sales": 1029494.69
+  },
+  {
+   "Bulan": "2015-09",
+   "Jumlah Order": 5140,
+   "Late Rate": 0.5669,
+   "Total Sales": 1018338.6
+  },
+  {
+   "Bulan": "2015-10",
+   "Jumlah Order": 5302,
+   "Late Rate": 0.5481,
+   "Total Sales": 1049154.27
+  },
+  {
+   "Bulan": "2015-11",
+   "Jumlah Order": 5235,
+   "Late Rate": 0.5427,
+   "Total Sales": 1029120.24
+  },
+  {
+   "Bulan": "2015-12",
+   "Jumlah Order": 5371,
+   "Late Rate": 0.5468,
+   "Total Sales": 1057840.88
+  },
+  {
+   "Bulan": "2016-01",
+   "Jumlah Order": 5317,
+   "Late Rate": 0.5558,
+   "Total Sales": 1046308.25
+  },
+  {
+   "Bulan": "2016-02",
+   "Jumlah Order": 4894,
+   "Late Rate": 0.5415,
+   "Total Sales": 968542.85
+  },
+  {
+   "Bulan": "2016-03",
+   "Jumlah Order": 5210,
+   "Late Rate": 0.5576,
+   "Total Sales": 1025853.12
+  },
+  {
+   "Bulan": "2016-04",
+   "Jumlah Order": 5097,
+   "Late Rate": 0.5523,
+   "Total Sales": 1001211.58
+  },
+  {
+   "Bulan": "2016-05",
+   "Jumlah Order": 5302,
+   "Late Rate": 0.5566,
+   "Total Sales": 1029400.2
+  },
+  {
+   "Bulan": "2016-06",
+   "Jumlah Order": 5054,
+   "Late Rate": 0.5685,
+   "Total Sales": 1003059.55
+  },
+  {
+   "Bulan": "2016-07",
+   "Jumlah Order": 5305,
+   "Late Rate": 0.5193,
+   "Total Sales": 1045715.62
+  },
+  {
+   "Bulan": "2016-08",
+   "Jumlah Order": 5334,
+   "Late Rate": 0.5527,
+   "Total Sales": 1048200.25
+  },
+  {
+   "Bulan": "2016-09",
+   "Jumlah Order": 5160,
+   "Late Rate": 0.5498,
+   "Total Sales": 1002397.04
+  },
+  {
+   "Bulan": "2016-10",
+   "Jumlah Order": 5398,
+   "Late Rate": 0.5478,
+   "Total Sales": 1048130.55
+  },
+  {
+   "Bulan": "2016-11",
+   "Jumlah Order": 5210,
+   "Late Rate": 0.5463,
+   "Total Sales": 1047590.14
+  },
+  {
+   "Bulan": "2016-12",
+   "Jumlah Order": 5269,
+   "Late Rate": 0.5606,
+   "Total Sales": 1037408.17
+  },
+  {
+   "Bulan": "2017-01",
+   "Jumlah Order": 5217,
+   "Late Rate": 0.5361,
+   "Total Sales": 1029698.02
+  },
+  {
+   "Bulan": "2017-02",
+   "Jumlah Order": 4906,
+   "Late Rate": 0.5467,
+   "Total Sales": 992534.9
+  },
+  {
+   "Bulan": "2017-03",
+   "Jumlah Order": 5347,
+   "Late Rate": 0.5526,
+   "Total Sales": 1048004.78
+  },
+  {
+   "Bulan": "2017-04",
+   "Jumlah Order": 5212,
+   "Late Rate": 0.5378,
+   "Total Sales": 1038321.62
+  },
+  {
+   "Bulan": "2017-05",
+   "Jumlah Order": 5317,
+   "Late Rate": 0.5347,
+   "Total Sales": 1105485.32
+  },
+  {
+   "Bulan": "2017-06",
+   "Jumlah Order": 4951,
+   "Late Rate": 0.535,
+   "Total Sales": 1032086.49
+  },
+  {
+   "Bulan": "2017-07",
+   "Jumlah Order": 5318,
+   "Late Rate": 0.5478,
+   "Total Sales": 1104373.36
+  },
+  {
+   "Bulan": "2017-08",
+   "Jumlah Order": 5305,
+   "Late Rate": 0.5644,
+   "Total Sales": 1109337.17
+  },
+  {
+   "Bulan": "2017-09",
+   "Jumlah Order": 5189,
+   "Late Rate": 0.5423,
+   "Total Sales": 1143775.11
+  },
+  {
+   "Bulan": "2017-10",
+   "Jumlah Order": 2255,
+   "Late Rate": 0.5366,
+   "Total Sales": 1073994.17
+  },
+  {
+   "Bulan": "2017-11",
+   "Jumlah Order": 2055,
+   "Late Rate": 0.5509,
+   "Total Sales": 626914.38
+  },
+  {
+   "Bulan": "2017-12",
+   "Jumlah Order": 2124,
+   "Late Rate": 0.5518,
+   "Total Sales": 503910.82
+  },
+  {
+   "Bulan": "2018-01",
+   "Jumlah Order": 2123,
+   "Late Rate": 0.5629,
+   "Total Sales": 331650.12
+  }
+ ],
+ "d02_moda": [
+  {
+   "Shipping Mode": "Standard Class",
+   "Jumlah Order": 21633,
+   "Late Rate Aktual": 0.3775,
+   "Recall Model": 0.0148,
+   "Accuracy": 0.6206,
+   "Tidak Terdeteksi": 8046,
+   "Salah Alarm": 162
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Jumlah Order": 7066,
+   "Late Rate Aktual": 0.7615,
+   "Recall Model": 0.9939,
+   "Accuracy": 0.7583,
+   "Tidak Terdeteksi": 33,
+   "Salah Alarm": 1675
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Jumlah Order": 5601,
+   "Late Rate Aktual": 0.9452,
+   "Recall Model": 0.9938,
+   "Accuracy": 0.9416,
+   "Tidak Terdeteksi": 33,
+   "Salah Alarm": 294
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Jumlah Order": 1959,
+   "Late Rate Aktual": 0.5038,
+   "Recall Model": 0.9605,
+   "Accuracy": 0.9592,
+   "Tidak Terdeteksi": 39,
+   "Salah Alarm": 41
+  }
+ ],
+ "d03_deteksi_moda": [
+  {
+   "Shipping Mode": "Standard Class",
+   "Ukuran": "Late rate sebenarnya",
+   "Nilai": 0.3775
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Ukuran": "Terdeteksi model",
+   "Nilai": 0.0148
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Ukuran": "Late rate sebenarnya",
+   "Nilai": 0.7615
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Ukuran": "Terdeteksi model",
+   "Nilai": 0.9939
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Ukuran": "Late rate sebenarnya",
+   "Nilai": 0.9452
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Ukuran": "Terdeteksi model",
+   "Nilai": 0.9938
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Ukuran": "Late rate sebenarnya",
+   "Nilai": 0.5038
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Ukuran": "Terdeteksi model",
+   "Nilai": 0.9605
+  }
+ ],
+ "d04_region_crosstab": [
+  {
+   "Order Region": "Western Europe",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7238,
+   "Satuan": "rasio",
+   "Tampil": "72,38%"
+  },
+  {
+   "Order Region": "Western Europe",
+   "Metrik": "Jumlah Order",
+   "Nilai": 12351,
+   "Satuan": "order",
+   "Tampil": 12.351
+  },
+  {
+   "Order Region": "Western Europe",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5539,
+   "Satuan": "rasio",
+   "Tampil": "55,39%"
+  },
+  {
+   "Order Region": "Western Europe",
+   "Metrik": "Recall",
+   "Nilai": 0.6031,
+   "Satuan": "rasio",
+   "Tampil": "60,31%"
+  },
+  {
+   "Order Region": "Western Europe",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 2715,
+   "Satuan": "order",
+   "Tampil": 2.715
+  },
+  {
+   "Order Region": "Central America",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7055,
+   "Satuan": "rasio",
+   "Tampil": "70,55%"
+  },
+  {
+   "Order Region": "Central America",
+   "Metrik": "Jumlah Order",
+   "Nilai": 5351,
+   "Satuan": "order",
+   "Tampil": 5.351
+  },
+  {
+   "Order Region": "Central America",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5483,
+   "Satuan": "rasio",
+   "Tampil": "54,83%"
+  },
+  {
+   "Order Region": "Central America",
+   "Metrik": "Recall",
+   "Nilai": 0.5535,
+   "Satuan": "rasio",
+   "Tampil": "55,35%"
+  },
+  {
+   "Order Region": "Central America",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 1310,
+   "Satuan": "order",
+   "Tampil": 1.31
+  },
+  {
+   "Order Region": "Northern Europe",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7007,
+   "Satuan": "rasio",
+   "Tampil": "70,07%"
+  },
+  {
+   "Order Region": "Northern Europe",
+   "Metrik": "Jumlah Order",
+   "Nilai": 4360,
+   "Satuan": "order",
+   "Tampil": 4.36
+  },
+  {
+   "Order Region": "Northern Europe",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5312,
+   "Satuan": "rasio",
+   "Tampil": "53,12%"
+  },
+  {
+   "Order Region": "Northern Europe",
+   "Metrik": "Recall",
+   "Nilai": 0.6071,
+   "Satuan": "rasio",
+   "Tampil": "60,71%"
+  },
+  {
+   "Order Region": "Northern Europe",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 910,
+   "Satuan": "order",
+   "Tampil": 910
+  },
+  {
+   "Order Region": "Southern Europe",
+   "Metrik": "Accuracy",
+   "Nilai": 0.729,
+   "Satuan": "rasio",
+   "Tampil": "72,90%"
+  },
+  {
+   "Order Region": "Southern Europe",
+   "Metrik": "Jumlah Order",
+   "Nilai": 4192,
+   "Satuan": "order",
+   "Tampil": 4.192
+  },
+  {
+   "Order Region": "Southern Europe",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5499,
+   "Satuan": "rasio",
+   "Tampil": "54,99%"
+  },
+  {
+   "Order Region": "Southern Europe",
+   "Metrik": "Recall",
+   "Nilai": 0.6043,
+   "Satuan": "rasio",
+   "Tampil": "60,43%"
+  },
+  {
+   "Order Region": "Southern Europe",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 912,
+   "Satuan": "order",
+   "Tampil": 912
+  },
+  {
+   "Order Region": "South America",
+   "Metrik": "Accuracy",
+   "Nilai": 0.6994,
+   "Satuan": "rasio",
+   "Tampil": "69,94%"
+  },
+  {
+   "Order Region": "South America",
+   "Metrik": "Jumlah Order",
+   "Nilai": 2997,
+   "Satuan": "order",
+   "Tampil": 2.997
+  },
+  {
+   "Order Region": "South America",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5375,
+   "Satuan": "rasio",
+   "Tampil": "53,75%"
+  },
+  {
+   "Order Region": "South America",
+   "Metrik": "Recall",
+   "Nilai": 0.5599,
+   "Satuan": "rasio",
+   "Tampil": "55,99%"
+  },
+  {
+   "Order Region": "South America",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 709,
+   "Satuan": "order",
+   "Tampil": 709
+  },
+  {
+   "Order Region": "Southeast Asia",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7113,
+   "Satuan": "rasio",
+   "Tampil": "71,13%"
+  },
+  {
+   "Order Region": "Southeast Asia",
+   "Metrik": "Jumlah Order",
+   "Nilai": 1749,
+   "Satuan": "order",
+   "Tampil": 1.749
+  },
+  {
+   "Order Region": "Southeast Asia",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5563,
+   "Satuan": "rasio",
+   "Tampil": "55,63%"
+  },
+  {
+   "Order Region": "Southeast Asia",
+   "Metrik": "Recall",
+   "Nilai": 0.5807,
+   "Satuan": "rasio",
+   "Tampil": "58,07%"
+  },
+  {
+   "Order Region": "Southeast Asia",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 408,
+   "Satuan": "order",
+   "Tampil": 408
+  },
+  {
+   "Order Region": "Oceania",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7201,
+   "Satuan": "rasio",
+   "Tampil": "72,01%"
+  },
+  {
+   "Order Region": "Oceania",
+   "Metrik": "Jumlah Order",
+   "Nilai": 1436,
+   "Satuan": "order",
+   "Tampil": 1.436
+  },
+  {
+   "Order Region": "Oceania",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5515,
+   "Satuan": "rasio",
+   "Tampil": "55,15%"
+  },
+  {
+   "Order Region": "Oceania",
+   "Metrik": "Recall",
+   "Nilai": 0.5922,
+   "Satuan": "rasio",
+   "Tampil": "59,22%"
+  },
+  {
+   "Order Region": "Oceania",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 323,
+   "Satuan": "order",
+   "Tampil": 323
+  },
+  {
+   "Order Region": "Caribbean",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7061,
+   "Satuan": "rasio",
+   "Tampil": "70,61%"
+  },
+  {
+   "Order Region": "Caribbean",
+   "Metrik": "Jumlah Order",
+   "Nilai": 1388,
+   "Satuan": "order",
+   "Tampil": 1.388
+  },
+  {
+   "Order Region": "Caribbean",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5065,
+   "Satuan": "rasio",
+   "Tampil": "50,65%"
+  },
+  {
+   "Order Region": "Caribbean",
+   "Metrik": "Recall",
+   "Nilai": 0.5562,
+   "Satuan": "rasio",
+   "Tampil": "55,62%"
+  },
+  {
+   "Order Region": "Caribbean",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 312,
+   "Satuan": "order",
+   "Tampil": 312
+  },
+  {
+   "Order Region": "Eastern Asia",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7135,
+   "Satuan": "rasio",
+   "Tampil": "71,35%"
+  },
+  {
+   "Order Region": "Eastern Asia",
+   "Metrik": "Jumlah Order",
+   "Nilai": 1316,
+   "Satuan": "order",
+   "Tampil": 1.316
+  },
+  {
+   "Order Region": "Eastern Asia",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5524,
+   "Satuan": "rasio",
+   "Tampil": "55,24%"
+  },
+  {
+   "Order Region": "Eastern Asia",
+   "Metrik": "Recall",
+   "Nilai": 0.5805,
+   "Satuan": "rasio",
+   "Tampil": "58,05%"
+  },
+  {
+   "Order Region": "Eastern Asia",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 305,
+   "Satuan": "order",
+   "Tampil": 305
+  },
+  {
+   "Order Region": "South Asia",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7301,
+   "Satuan": "rasio",
+   "Tampil": "73,01%"
+  },
+  {
+   "Order Region": "South Asia",
+   "Metrik": "Jumlah Order",
+   "Nilai": 1119,
+   "Satuan": "order",
+   "Tampil": 1.119
+  },
+  {
+   "Order Region": "South Asia",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5603,
+   "Satuan": "rasio",
+   "Tampil": "56,03%"
+  },
+  {
+   "Order Region": "South Asia",
+   "Metrik": "Recall",
+   "Nilai": 0.6061,
+   "Satuan": "rasio",
+   "Tampil": "60,61%"
+  },
+  {
+   "Order Region": "South Asia",
+   "Metrik": "Tidak Terdeteksi",
+   "Nilai": 247,
+   "Satuan": "order",
+   "Tampil": 247
+  }
+ ],
+ "d05_region": [
+  {
+   "Order Region": "Western Europe",
+   "Jumlah Order": 12351,
+   "Late Rate": 0.5539,
+   "Recall Model": 0.6031
+  },
+  {
+   "Order Region": "Central America",
+   "Jumlah Order": 5351,
+   "Late Rate": 0.5483,
+   "Recall Model": 0.5535
+  },
+  {
+   "Order Region": "Northern Europe",
+   "Jumlah Order": 4360,
+   "Late Rate": 0.5312,
+   "Recall Model": 0.6071
+  },
+  {
+   "Order Region": "Southern Europe",
+   "Jumlah Order": 4192,
+   "Late Rate": 0.5499,
+   "Recall Model": 0.6043
+  },
+  {
+   "Order Region": "South America",
+   "Jumlah Order": 2997,
+   "Late Rate": 0.5375,
+   "Recall Model": 0.5599
+  },
+  {
+   "Order Region": "Southeast Asia",
+   "Jumlah Order": 1749,
+   "Late Rate": 0.5563,
+   "Recall Model": 0.5807
+  },
+  {
+   "Order Region": "Oceania",
+   "Jumlah Order": 1436,
+   "Late Rate": 0.5515,
+   "Recall Model": 0.5922
+  },
+  {
+   "Order Region": "Caribbean",
+   "Jumlah Order": 1388,
+   "Late Rate": 0.5065,
+   "Recall Model": 0.5562
+  },
+  {
+   "Order Region": "Eastern Asia",
+   "Jumlah Order": 1316,
+   "Late Rate": 0.5524,
+   "Recall Model": 0.5805
+  },
+  {
+   "Order Region": "South Asia",
+   "Jumlah Order": 1119,
+   "Late Rate": 0.5603,
+   "Recall Model": 0.6061
+  }
+ ],
+ "d06_matriks": [
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Caribbean",
+   "Jumlah Order": 1193,
+   "Late Rate": 0.9489
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Central America",
+   "Jumlah Order": 4382,
+   "Late Rate": 0.955
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "East of USA",
+   "Jumlah Order": 1089,
+   "Late Rate": 0.9642
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Eastern Asia",
+   "Jumlah Order": 1043,
+   "Late Rate": 0.9482
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Northern Europe",
+   "Jumlah Order": 1418,
+   "Late Rate": 0.9598
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Oceania",
+   "Jumlah Order": 1366,
+   "Late Rate": 0.9297
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "South America",
+   "Jumlah Order": 2311,
+   "Late Rate": 0.9321
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "South Asia",
+   "Jumlah Order": 1283,
+   "Late Rate": 0.9665
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Southeast Asia",
+   "Jumlah Order": 1552,
+   "Late Rate": 0.9549
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Southern Europe",
+   "Jumlah Order": 1504,
+   "Late Rate": 0.9721
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "West of USA",
+   "Jumlah Order": 1149,
+   "Late Rate": 0.933
+  },
+  {
+   "Shipping Mode": "First Class",
+   "Order Region": "Western Europe",
+   "Jumlah Order": 4312,
+   "Late Rate": 0.9525
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Caribbean",
+   "Jumlah Order": 451,
+   "Late Rate": 0.4967
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Central America",
+   "Jumlah Order": 1423,
+   "Late Rate": 0.4575
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "East of USA",
+   "Jumlah Order": 418,
+   "Late Rate": 0.4785
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Eastern Asia",
+   "Jumlah Order": 406,
+   "Late Rate": 0.4754
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Northern Europe",
+   "Jumlah Order": 517,
+   "Late Rate": 0.3985
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Oceania",
+   "Jumlah Order": 647,
+   "Late Rate": 0.4065
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "South America",
+   "Jumlah Order": 776,
+   "Late Rate": 0.5129
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "South Asia",
+   "Jumlah Order": 379,
+   "Late Rate": 0.496
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Southeast Asia",
+   "Jumlah Order": 451,
+   "Late Rate": 0.408
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Southern Europe",
+   "Jumlah Order": 569,
+   "Late Rate": 0.5325
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "West of USA",
+   "Jumlah Order": 425,
+   "Late Rate": 0.4824
+  },
+  {
+   "Shipping Mode": "Same Day",
+   "Order Region": "Western Europe",
+   "Jumlah Order": 1495,
+   "Late Rate": 0.4736
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Caribbean",
+   "Jumlah Order": 1631,
+   "Late Rate": 0.783
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Central America",
+   "Jumlah Order": 5481,
+   "Late Rate": 0.75
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "East of USA",
+   "Jumlah Order": 1278,
+   "Late Rate": 0.748
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Eastern Asia",
+   "Jumlah Order": 1406,
+   "Late Rate": 0.7937
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Northern Europe",
+   "Jumlah Order": 1953,
+   "Late Rate": 0.7624
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Oceania",
+   "Jumlah Order": 2035,
+   "Late Rate": 0.7676
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "South America",
+   "Jumlah Order": 2827,
+   "Late Rate": 0.7506
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "South Asia",
+   "Jumlah Order": 1552,
+   "Late Rate": 0.7719
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Southeast Asia",
+   "Jumlah Order": 1833,
+   "Late Rate": 0.761
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Southern Europe",
+   "Jumlah Order": 1698,
+   "Late Rate": 0.7615
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "West of USA",
+   "Jumlah Order": 1632,
+   "Late Rate": 0.7684
+  },
+  {
+   "Shipping Mode": "Second Class",
+   "Order Region": "Western Europe",
+   "Jumlah Order": 5438,
+   "Late Rate": 0.779
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Caribbean",
+   "Jumlah Order": 5043,
+   "Late Rate": 0.3534
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Central America",
+   "Jumlah Order": 17055,
+   "Late Rate": 0.3853
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "East of USA",
+   "Jumlah Order": 4130,
+   "Late Rate": 0.3978
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Eastern Asia",
+   "Jumlah Order": 4425,
+   "Late Rate": 0.3745
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Northern Europe",
+   "Jumlah Order": 5904,
+   "Late Rate": 0.3787
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Oceania",
+   "Jumlah Order": 6100,
+   "Late Rate": 0.3913
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "South America",
+   "Jumlah Order": 9021,
+   "Late Rate": 0.381
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "South Asia",
+   "Jumlah Order": 4517,
+   "Late Rate": 0.3817
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Southeast Asia",
+   "Jumlah Order": 5703,
+   "Late Rate": 0.3921
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Southern Europe",
+   "Jumlah Order": 5660,
+   "Late Rate": 0.3659
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "West of USA",
+   "Jumlah Order": 4787,
+   "Late Rate": 0.3723
+  },
+  {
+   "Shipping Mode": "Standard Class",
+   "Order Region": "Western Europe",
+   "Jumlah Order": 15864,
+   "Late Rate": 0.3838
+  }
+ ],
+ "d07_negara": [
+  {
+   "Order Country": "Estados Unidos",
+   "Jumlah Order": 24840,
+   "Late Rate": 0.5503,
+   "Total Sales": 4879667.67
+  },
+  {
+   "Order Country": "Francia",
+   "Jumlah Order": 13222,
+   "Late Rate": 0.5552,
+   "Total Sales": 2879942.36
+  },
+  {
+   "Order Country": "México",
+   "Jumlah Order": 13172,
+   "Late Rate": 0.5501,
+   "Total Sales": 2633195.29
+  },
+  {
+   "Order Country": "Alemania",
+   "Jumlah Order": 9564,
+   "Late Rate": 0.5628,
+   "Total Sales": 2074171.82
+  },
+  {
+   "Order Country": "Australia",
+   "Jumlah Order": 8497,
+   "Late Rate": 0.5429,
+   "Total Sales": 1694621.67
+  },
+  {
+   "Order Country": "Brasil",
+   "Jumlah Order": 7987,
+   "Late Rate": 0.5423,
+   "Total Sales": 1594319.95
+  },
+  {
+   "Order Country": "Reino Unido",
+   "Jumlah Order": 7302,
+   "Late Rate": 0.5345,
+   "Total Sales": 1612094.85
+  },
+  {
+   "Order Country": "China",
+   "Jumlah Order": 5758,
+   "Late Rate": 0.5424,
+   "Total Sales": 1172902.11
+  },
+  {
+   "Order Country": "Italia",
+   "Jumlah Order": 4989,
+   "Late Rate": 0.5356,
+   "Total Sales": 1072181.67
+  },
+  {
+   "Order Country": "India",
+   "Jumlah Order": 4783,
+   "Late Rate": 0.5612,
+   "Total Sales": 962396.7
+  },
+  {
+   "Order Country": "Indonesia",
+   "Jumlah Order": 4204,
+   "Late Rate": 0.5538,
+   "Total Sales": 847605.93
+  },
+  {
+   "Order Country": "España",
+   "Jumlah Order": 3868,
+   "Late Rate": 0.5569,
+   "Total Sales": 851526.74
+  },
+  {
+   "Order Country": "El Salvador",
+   "Jumlah Order": 3726,
+   "Late Rate": 0.5612,
+   "Total Sales": 747720.21
+  },
+  {
+   "Order Country": "República Dominicana",
+   "Jumlah Order": 3669,
+   "Late Rate": 0.5506,
+   "Total Sales": 726613.05
+  },
+  {
+   "Order Country": "Honduras",
+   "Jumlah Order": 3629,
+   "Late Rate": 0.5288,
+   "Total Sales": 734959.67
+  }
+ ],
+ "d08_model_crosstab": [
+  {
+   "Model": "Logistic Regression · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7012,
+   "Satuan": "rasio",
+   "Tampil": "0,7012"
+  },
+  {
+   "Model": "Logistic Regression · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 0.5587,
+   "Satuan": "rasio",
+   "Tampil": "0,5587"
+  },
+  {
+   "Model": "Logistic Regression · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.6716,
+   "Satuan": "rasio",
+   "Tampil": "0,6716"
+  },
+  {
+   "Model": "Logistic Regression · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.744,
+   "Satuan": "rasio",
+   "Tampil": "0,7440"
+  },
+  {
+   "Model": "Logistic Regression · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": 28.7,
+   "Satuan": "detik",
+   "Tampil": "28,7 dtk"
+  },
+  {
+   "Model": "Random Forest · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7182,
+   "Satuan": "rasio",
+   "Tampil": "0,7182"
+  },
+  {
+   "Model": "Random Forest · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 0.5881,
+   "Satuan": "rasio",
+   "Tampil": "0,5881"
+  },
+  {
+   "Model": "Random Forest · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.6954,
+   "Satuan": "rasio",
+   "Tampil": "0,6954"
+  },
+  {
+   "Model": "Random Forest · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7596,
+   "Satuan": "rasio",
+   "Tampil": "0,7596"
+  },
+  {
+   "Model": "Random Forest · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": 109.9,
+   "Satuan": "detik",
+   "Tampil": "109,9 dtk"
+  },
+  {
+   "Model": "GBT · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7153,
+   "Satuan": "rasio",
+   "Tampil": "0,7153"
+  },
+  {
+   "Model": "GBT · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 0.5889,
+   "Satuan": "rasio",
+   "Tampil": "0,5889"
+  },
+  {
+   "Model": "GBT · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.6935,
+   "Satuan": "rasio",
+   "Tampil": "0,6935"
+  },
+  {
+   "Model": "GBT · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7714,
+   "Satuan": "rasio",
+   "Tampil": "0,7714"
+  },
+  {
+   "Model": "GBT · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": 283.9,
+   "Satuan": "detik",
+   "Tampil": "283,9 dtk"
+  },
+  {
+   "Model": "Decision Tree · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7158,
+   "Satuan": "rasio",
+   "Tampil": "0,7158"
+  },
+  {
+   "Model": "Decision Tree · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 0.5881,
+   "Satuan": "rasio",
+   "Tampil": "0,5881"
+  },
+  {
+   "Model": "Decision Tree · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.6935,
+   "Satuan": "rasio",
+   "Tampil": "0,6935"
+  },
+  {
+   "Model": "Decision Tree · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7662,
+   "Satuan": "rasio",
+   "Tampil": "0,7662"
+  },
+  {
+   "Model": "Decision Tree · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": 11.3,
+   "Satuan": "detik",
+   "Tampil": "11,3 dtk"
+  },
+  {
+   "Model": "Logistic Regression · scikit-learn",
+   "Metrik": "Accuracy",
+   "Nilai": 0.6932,
+   "Satuan": "rasio",
+   "Tampil": "0,6932"
+  },
+  {
+   "Model": "Logistic Regression · scikit-learn",
+   "Metrik": "Recall",
+   "Nilai": 0.5399,
+   "Satuan": "rasio",
+   "Tampil": "0,5399"
+  },
+  {
+   "Model": "Logistic Regression · scikit-learn",
+   "Metrik": "F1",
+   "Nilai": 0.6581,
+   "Satuan": "rasio",
+   "Tampil": "0,6581"
+  },
+  {
+   "Model": "Logistic Regression · scikit-learn",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7441,
+   "Satuan": "rasio",
+   "Tampil": "0,7441"
+  },
+  {
+   "Model": "Logistic Regression · scikit-learn",
+   "Metrik": "Waktu Latih",
+   "Nilai": 14.6,
+   "Satuan": "detik",
+   "Tampil": "14,6 dtk"
+  },
+  {
+   "Model": "Random Forest · scikit-learn",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7184,
+   "Satuan": "rasio",
+   "Tampil": "0,7184"
+  },
+  {
+   "Model": "Random Forest · scikit-learn",
+   "Metrik": "Recall",
+   "Nilai": 0.5884,
+   "Satuan": "rasio",
+   "Tampil": "0,5884"
+  },
+  {
+   "Model": "Random Forest · scikit-learn",
+   "Metrik": "F1",
+   "Nilai": 0.6956,
+   "Satuan": "rasio",
+   "Tampil": "0,6956"
+  },
+  {
+   "Model": "Random Forest · scikit-learn",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7571,
+   "Satuan": "rasio",
+   "Tampil": "0,7571"
+  },
+  {
+   "Model": "Random Forest · scikit-learn",
+   "Metrik": "Waktu Latih",
+   "Nilai": 21.1,
+   "Satuan": "detik",
+   "Tampil": "21,1 dtk"
+  },
+  {
+   "Model": "GBT · scikit-learn",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7179,
+   "Satuan": "rasio",
+   "Tampil": "0,7179"
+  },
+  {
+   "Model": "GBT · scikit-learn",
+   "Metrik": "Recall",
+   "Nilai": 0.5897,
+   "Satuan": "rasio",
+   "Tampil": "0,5897"
+  },
+  {
+   "Model": "GBT · scikit-learn",
+   "Metrik": "F1",
+   "Nilai": 0.6957,
+   "Satuan": "rasio",
+   "Tampil": "0,6957"
+  },
+  {
+   "Model": "GBT · scikit-learn",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7711,
+   "Satuan": "rasio",
+   "Tampil": "0,7711"
+  },
+  {
+   "Model": "GBT · scikit-learn",
+   "Metrik": "Waktu Latih",
+   "Nilai": 13.4,
+   "Satuan": "detik",
+   "Tampil": "13,4 dtk"
+  },
+  {
+   "Model": "Decision Tree · scikit-learn",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7153,
+   "Satuan": "rasio",
+   "Tampil": "0,7153"
+  },
+  {
+   "Model": "Decision Tree · scikit-learn",
+   "Metrik": "Recall",
+   "Nilai": 0.5879,
+   "Satuan": "rasio",
+   "Tampil": "0,5879"
+  },
+  {
+   "Model": "Decision Tree · scikit-learn",
+   "Metrik": "F1",
+   "Nilai": 0.6931,
+   "Satuan": "rasio",
+   "Tampil": "0,6931"
+  },
+  {
+   "Model": "Decision Tree · scikit-learn",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7649,
+   "Satuan": "rasio",
+   "Tampil": "0,7649"
+  },
+  {
+   "Model": "Decision Tree · scikit-learn",
+   "Metrik": "Waktu Latih",
+   "Nilai": 4.2,
+   "Satuan": "detik",
+   "Tampil": "4,2 dtk"
+  },
+  {
+   "Model": "Baseline lookup Shipping Mode",
+   "Metrik": "Accuracy",
+   "Nilai": 0.6926,
+   "Satuan": "rasio",
+   "Tampil": "0,6926"
+  },
+  {
+   "Model": "Baseline lookup Shipping Mode",
+   "Metrik": "Recall",
+   "Nilai": 0.5384,
+   "Satuan": "rasio",
+   "Tampil": "0,5384"
+  },
+  {
+   "Model": "Baseline lookup Shipping Mode",
+   "Metrik": "F1",
+   "Nilai": 0.657,
+   "Satuan": "rasio",
+   "Tampil": "0,6570"
+  },
+  {
+   "Model": "Baseline lookup Shipping Mode",
+   "Metrik": "ROC AUC",
+   "Nilai": null,
+   "Satuan": "rasio",
+   "Tampil": "—"
+  },
+  {
+   "Model": "Baseline lookup Shipping Mode",
+   "Metrik": "Waktu Latih",
+   "Nilai": 0.0,
+   "Satuan": "detik",
+   "Tampil": "0,0 dtk"
+  },
+  {
+   "Model": "GBT @ ambang 0.50 · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7153,
+   "Satuan": "rasio",
+   "Tampil": "0,7153"
+  },
+  {
+   "Model": "GBT @ ambang 0.50 · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 0.5889,
+   "Satuan": "rasio",
+   "Tampil": "0,5889"
+  },
+  {
+   "Model": "GBT @ ambang 0.50 · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.6935,
+   "Satuan": "rasio",
+   "Tampil": "0,6935"
+  },
+  {
+   "Model": "GBT @ ambang 0.50 · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7714,
+   "Satuan": "rasio",
+   "Tampil": "0,7714"
+  },
+  {
+   "Model": "GBT @ ambang 0.50 · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": null,
+   "Satuan": "detik",
+   "Tampil": "—"
+  },
+  {
+   "Model": "GBT @ ambang 0.54 · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.715,
+   "Satuan": "rasio",
+   "Tampil": "0,7150"
+  },
+  {
+   "Model": "GBT @ ambang 0.54 · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 0.5861,
+   "Satuan": "rasio",
+   "Tampil": "0,5861"
+  },
+  {
+   "Model": "GBT @ ambang 0.54 · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.6922,
+   "Satuan": "rasio",
+   "Tampil": "0,6922"
+  },
+  {
+   "Model": "GBT @ ambang 0.54 · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7714,
+   "Satuan": "rasio",
+   "Tampil": "0,7714"
+  },
+  {
+   "Model": "GBT @ ambang 0.54 · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": null,
+   "Satuan": "detik",
+   "Tampil": "—"
+  },
+  {
+   "Model": "GBT @ ambang 0.31 · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.5798,
+   "Satuan": "rasio",
+   "Tampil": "0,5798"
+  },
+  {
+   "Model": "GBT @ ambang 0.31 · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 0.9849,
+   "Satuan": "rasio",
+   "Tampil": "0,9849"
+  },
+  {
+   "Model": "GBT @ ambang 0.31 · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.7194,
+   "Satuan": "rasio",
+   "Tampil": "0,7194"
+  },
+  {
+   "Model": "GBT @ ambang 0.31 · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7714,
+   "Satuan": "rasio",
+   "Tampil": "0,7714"
+  },
+  {
+   "Model": "GBT @ ambang 0.31 · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": null,
+   "Satuan": "detik",
+   "Tampil": "—"
+  },
+  {
+   "Model": "GBT @ ambang 0.06 · Spark MLlib",
+   "Metrik": "Accuracy",
+   "Nilai": 0.5721,
+   "Satuan": "rasio",
+   "Tampil": "0,5721"
+  },
+  {
+   "Model": "GBT @ ambang 0.06 · Spark MLlib",
+   "Metrik": "Recall",
+   "Nilai": 1.0,
+   "Satuan": "rasio",
+   "Tampil": "1,0000"
+  },
+  {
+   "Model": "GBT @ ambang 0.06 · Spark MLlib",
+   "Metrik": "F1",
+   "Nilai": 0.7188,
+   "Satuan": "rasio",
+   "Tampil": "0,7188"
+  },
+  {
+   "Model": "GBT @ ambang 0.06 · Spark MLlib",
+   "Metrik": "ROC AUC",
+   "Nilai": 0.7714,
+   "Satuan": "rasio",
+   "Tampil": "0,7714"
+  },
+  {
+   "Model": "GBT @ ambang 0.06 · Spark MLlib",
+   "Metrik": "Waktu Latih",
+   "Nilai": null,
+   "Satuan": "detik",
+   "Tampil": "—"
+  }
+ ],
+ "d09_model": [
+  {
+   "Model": "Logistic Regression",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.7012,
+   "ROC AUC": 0.744,
+   "Recall": 0.5587
+  },
+  {
+   "Model": "Random Forest",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.7182,
+   "ROC AUC": 0.7596,
+   "Recall": 0.5881
+  },
+  {
+   "Model": "GBT",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.7153,
+   "ROC AUC": 0.7714,
+   "Recall": 0.5889
+  },
+  {
+   "Model": "Decision Tree",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.7158,
+   "ROC AUC": 0.7662,
+   "Recall": 0.5881
+  },
+  {
+   "Model": "Logistic Regression",
+   "Kerangka Kerja": "scikit-learn",
+   "Accuracy": 0.6932,
+   "ROC AUC": 0.7441,
+   "Recall": 0.5399
+  },
+  {
+   "Model": "Random Forest",
+   "Kerangka Kerja": "scikit-learn",
+   "Accuracy": 0.7184,
+   "ROC AUC": 0.7571,
+   "Recall": 0.5884
+  },
+  {
+   "Model": "GBT",
+   "Kerangka Kerja": "scikit-learn",
+   "Accuracy": 0.7179,
+   "ROC AUC": 0.7711,
+   "Recall": 0.5897
+  },
+  {
+   "Model": "Decision Tree",
+   "Kerangka Kerja": "scikit-learn",
+   "Accuracy": 0.7153,
+   "ROC AUC": 0.7649,
+   "Recall": 0.5879
+  },
+  {
+   "Model": "GBT @ ambang 0.50",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.7153,
+   "ROC AUC": 0.7714,
+   "Recall": 0.5889
+  },
+  {
+   "Model": "GBT @ ambang 0.54",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.715,
+   "ROC AUC": 0.7714,
+   "Recall": 0.5861
+  },
+  {
+   "Model": "GBT @ ambang 0.31",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.5798,
+   "ROC AUC": 0.7714,
+   "Recall": 0.9849
+  },
+  {
+   "Model": "GBT @ ambang 0.06",
+   "Kerangka Kerja": "Spark MLlib",
+   "Accuracy": 0.5721,
+   "ROC AUC": 0.7714,
+   "Recall": 1.0
+  }
+ ],
+ "d10_fitur": [
+  {
+   "Kelompok Fitur": "Moda pengiriman",
+   "Importance": 0.665,
+   "Sorotan": "Dominan"
+  },
+  {
+   "Kelompok Fitur": "Jadwal kirim",
+   "Importance": 0.2357,
+   "Sorotan": "Lainnya"
+  },
+  {
+   "Kelompok Fitur": "Fitur waktu",
+   "Importance": 0.0683,
+   "Sorotan": "Lainnya"
+  },
+  {
+   "Kelompok Fitur": "Metode pembayaran",
+   "Importance": 0.0175,
+   "Sorotan": "Lainnya"
+  },
+  {
+   "Kelompok Fitur": "Nilai transaksi",
+   "Importance": 0.007,
+   "Sorotan": "Lainnya"
+  },
+  {
+   "Kelompok Fitur": "Kategori produk",
+   "Importance": 0.004,
+   "Sorotan": "Lainnya"
+  },
+  {
+   "Kelompok Fitur": "Segmen pelanggan",
+   "Importance": 0.002,
+   "Sorotan": "Lainnya"
+  },
+  {
+   "Kelompok Fitur": "Geografis",
+   "Importance": 0.0005,
+   "Sorotan": "Nyaris nol"
+  }
+ ],
+ "d11_ambang": [
+  {
+   "Ambang": 0.02,
+   "Metrik": "Accuracy",
+   "Nilai": 0.543
+  },
+  {
+   "Ambang": 0.02,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 1.0
+  },
+  {
+   "Ambang": 0.02,
+   "Metrik": "Specificity",
+   "Nilai": 0.0
+  },
+  {
+   "Ambang": 0.04,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5682
+  },
+  {
+   "Ambang": 0.04,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 1.0
+  },
+  {
+   "Ambang": 0.04,
+   "Metrik": "Specificity",
+   "Nilai": 0.0551
+  },
+  {
+   "Ambang": 0.06,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5691
+  },
+  {
+   "Ambang": 0.06,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 1.0
+  },
+  {
+   "Ambang": 0.06,
+   "Metrik": "Specificity",
+   "Nilai": 0.057
+  },
+  {
+   "Ambang": 0.08,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5691
+  },
+  {
+   "Ambang": 0.08,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 1.0
+  },
+  {
+   "Ambang": 0.08,
+   "Metrik": "Specificity",
+   "Nilai": 0.057
+  },
+  {
+   "Ambang": 0.1,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5691
+  },
+  {
+   "Ambang": 0.1,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 1.0
+  },
+  {
+   "Ambang": 0.1,
+   "Metrik": "Specificity",
+   "Nilai": 0.057
+  },
+  {
+   "Ambang": 0.12,
+   "Metrik": "Accuracy",
+   "Nilai": 0.569
+  },
+  {
+   "Ambang": 0.12,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9994
+  },
+  {
+   "Ambang": 0.12,
+   "Metrik": "Specificity",
+   "Nilai": 0.0575
+  },
+  {
+   "Ambang": 0.14,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5691
+  },
+  {
+   "Ambang": 0.14,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.999
+  },
+  {
+   "Ambang": 0.14,
+   "Metrik": "Specificity",
+   "Nilai": 0.0582
+  },
+  {
+   "Ambang": 0.16,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5691
+  },
+  {
+   "Ambang": 0.16,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.999
+  },
+  {
+   "Ambang": 0.16,
+   "Metrik": "Specificity",
+   "Nilai": 0.0582
+  },
+  {
+   "Ambang": 0.18,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5697
+  },
+  {
+   "Ambang": 0.18,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9984
+  },
+  {
+   "Ambang": 0.18,
+   "Metrik": "Specificity",
+   "Nilai": 0.0603
+  },
+  {
+   "Ambang": 0.2,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5697
+  },
+  {
+   "Ambang": 0.2,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9983
+  },
+  {
+   "Ambang": 0.2,
+   "Metrik": "Specificity",
+   "Nilai": 0.0604
+  },
+  {
+   "Ambang": 0.22,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5697
+  },
+  {
+   "Ambang": 0.22,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9976
+  },
+  {
+   "Ambang": 0.22,
+   "Metrik": "Specificity",
+   "Nilai": 0.0614
+  },
+  {
+   "Ambang": 0.24,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5704
+  },
+  {
+   "Ambang": 0.24,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9973
+  },
+  {
+   "Ambang": 0.24,
+   "Metrik": "Specificity",
+   "Nilai": 0.0632
+  },
+  {
+   "Ambang": 0.26,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5724
+  },
+  {
+   "Ambang": 0.26,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9911
+  },
+  {
+   "Ambang": 0.26,
+   "Metrik": "Specificity",
+   "Nilai": 0.0748
+  },
+  {
+   "Ambang": 0.28,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5747
+  },
+  {
+   "Ambang": 0.28,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9882
+  },
+  {
+   "Ambang": 0.28,
+   "Metrik": "Specificity",
+   "Nilai": 0.0834
+  },
+  {
+   "Ambang": 0.3,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5762
+  },
+  {
+   "Ambang": 0.3,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.985
+  },
+  {
+   "Ambang": 0.3,
+   "Metrik": "Specificity",
+   "Nilai": 0.0904
+  },
+  {
+   "Ambang": 0.32,
+   "Metrik": "Accuracy",
+   "Nilai": 0.583
+  },
+  {
+   "Ambang": 0.32,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9727
+  },
+  {
+   "Ambang": 0.32,
+   "Metrik": "Specificity",
+   "Nilai": 0.12
+  },
+  {
+   "Ambang": 0.34,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5941
+  },
+  {
+   "Ambang": 0.34,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.9457
+  },
+  {
+   "Ambang": 0.34,
+   "Metrik": "Specificity",
+   "Nilai": 0.1762
+  },
+  {
+   "Ambang": 0.36,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6262
+  },
+  {
+   "Ambang": 0.36,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.8657
+  },
+  {
+   "Ambang": 0.36,
+   "Metrik": "Specificity",
+   "Nilai": 0.3417
+  },
+  {
+   "Ambang": 0.38,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6297
+  },
+  {
+   "Ambang": 0.38,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.8528
+  },
+  {
+   "Ambang": 0.38,
+   "Metrik": "Specificity",
+   "Nilai": 0.3646
+  },
+  {
+   "Ambang": 0.4,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6755
+  },
+  {
+   "Ambang": 0.4,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.691
+  },
+  {
+   "Ambang": 0.4,
+   "Metrik": "Specificity",
+   "Nilai": 0.657
+  },
+  {
+   "Ambang": 0.42,
+   "Metrik": "Accuracy",
+   "Nilai": 0.703
+  },
+  {
+   "Ambang": 0.42,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5968
+  },
+  {
+   "Ambang": 0.42,
+   "Metrik": "Specificity",
+   "Nilai": 0.8291
+  },
+  {
+   "Ambang": 0.44,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7034
+  },
+  {
+   "Ambang": 0.44,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5917
+  },
+  {
+   "Ambang": 0.44,
+   "Metrik": "Specificity",
+   "Nilai": 0.836
+  },
+  {
+   "Ambang": 0.46,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7054
+  },
+  {
+   "Ambang": 0.46,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5858
+  },
+  {
+   "Ambang": 0.46,
+   "Metrik": "Specificity",
+   "Nilai": 0.8475
+  },
+  {
+   "Ambang": 0.48,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7059
+  },
+  {
+   "Ambang": 0.48,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5839
+  },
+  {
+   "Ambang": 0.48,
+   "Metrik": "Specificity",
+   "Nilai": 0.8509
+  },
+  {
+   "Ambang": 0.5,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7033
+  },
+  {
+   "Ambang": 0.5,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5767
+  },
+  {
+   "Ambang": 0.5,
+   "Metrik": "Specificity",
+   "Nilai": 0.8537
+  },
+  {
+   "Ambang": 0.52,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7049
+  },
+  {
+   "Ambang": 0.52,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5678
+  },
+  {
+   "Ambang": 0.52,
+   "Metrik": "Specificity",
+   "Nilai": 0.8678
+  },
+  {
+   "Ambang": 0.54,
+   "Metrik": "Accuracy",
+   "Nilai": 0.705
+  },
+  {
+   "Ambang": 0.54,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5648
+  },
+  {
+   "Ambang": 0.54,
+   "Metrik": "Specificity",
+   "Nilai": 0.8717
+  },
+  {
+   "Ambang": 0.56,
+   "Metrik": "Accuracy",
+   "Nilai": 0.704
+  },
+  {
+   "Ambang": 0.56,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5626
+  },
+  {
+   "Ambang": 0.56,
+   "Metrik": "Specificity",
+   "Nilai": 0.872
+  },
+  {
+   "Ambang": 0.58,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7039
+  },
+  {
+   "Ambang": 0.58,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5616
+  },
+  {
+   "Ambang": 0.58,
+   "Metrik": "Specificity",
+   "Nilai": 0.873
+  },
+  {
+   "Ambang": 0.6,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7026
+  },
+  {
+   "Ambang": 0.6,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5588
+  },
+  {
+   "Ambang": 0.6,
+   "Metrik": "Specificity",
+   "Nilai": 0.8734
+  },
+  {
+   "Ambang": 0.62,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7018
+  },
+  {
+   "Ambang": 0.62,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5553
+  },
+  {
+   "Ambang": 0.62,
+   "Metrik": "Specificity",
+   "Nilai": 0.8758
+  },
+  {
+   "Ambang": 0.64,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7022
+  },
+  {
+   "Ambang": 0.64,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5543
+  },
+  {
+   "Ambang": 0.64,
+   "Metrik": "Specificity",
+   "Nilai": 0.878
+  },
+  {
+   "Ambang": 0.66,
+   "Metrik": "Accuracy",
+   "Nilai": 0.7015
+  },
+  {
+   "Ambang": 0.66,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5519
+  },
+  {
+   "Ambang": 0.66,
+   "Metrik": "Specificity",
+   "Nilai": 0.8793
+  },
+  {
+   "Ambang": 0.68,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6976
+  },
+  {
+   "Ambang": 0.68,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5364
+  },
+  {
+   "Ambang": 0.68,
+   "Metrik": "Specificity",
+   "Nilai": 0.8893
+  },
+  {
+   "Ambang": 0.7,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6932
+  },
+  {
+   "Ambang": 0.7,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5228
+  },
+  {
+   "Ambang": 0.7,
+   "Metrik": "Specificity",
+   "Nilai": 0.8957
+  },
+  {
+   "Ambang": 0.72,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6906
+  },
+  {
+   "Ambang": 0.72,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5108
+  },
+  {
+   "Ambang": 0.72,
+   "Metrik": "Specificity",
+   "Nilai": 0.9042
+  },
+  {
+   "Ambang": 0.74,
+   "Metrik": "Accuracy",
+   "Nilai": 0.682
+  },
+  {
+   "Ambang": 0.74,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.4839
+  },
+  {
+   "Ambang": 0.74,
+   "Metrik": "Specificity",
+   "Nilai": 0.9174
+  },
+  {
+   "Ambang": 0.76,
+   "Metrik": "Accuracy",
+   "Nilai": 0.679
+  },
+  {
+   "Ambang": 0.76,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.4764
+  },
+  {
+   "Ambang": 0.76,
+   "Metrik": "Specificity",
+   "Nilai": 0.9198
+  },
+  {
+   "Ambang": 0.78,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6666
+  },
+  {
+   "Ambang": 0.78,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.4417
+  },
+  {
+   "Ambang": 0.78,
+   "Metrik": "Specificity",
+   "Nilai": 0.9339
+  },
+  {
+   "Ambang": 0.8,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6282
+  },
+  {
+   "Ambang": 0.8,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.3426
+  },
+  {
+   "Ambang": 0.8,
+   "Metrik": "Specificity",
+   "Nilai": 0.9676
+  },
+  {
+   "Ambang": 0.82,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6161
+  },
+  {
+   "Ambang": 0.82,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.3135
+  },
+  {
+   "Ambang": 0.82,
+   "Metrik": "Specificity",
+   "Nilai": 0.9757
+  },
+  {
+   "Ambang": 0.84,
+   "Metrik": "Accuracy",
+   "Nilai": 0.6033
+  },
+  {
+   "Ambang": 0.84,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.2821
+  },
+  {
+   "Ambang": 0.84,
+   "Metrik": "Specificity",
+   "Nilai": 0.9848
+  },
+  {
+   "Ambang": 0.86,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5959
+  },
+  {
+   "Ambang": 0.86,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.2649
+  },
+  {
+   "Ambang": 0.86,
+   "Metrik": "Specificity",
+   "Nilai": 0.9892
+  },
+  {
+   "Ambang": 0.88,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5907
+  },
+  {
+   "Ambang": 0.88,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.2527
+  },
+  {
+   "Ambang": 0.88,
+   "Metrik": "Specificity",
+   "Nilai": 0.9922
+  },
+  {
+   "Ambang": 0.9,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5855
+  },
+  {
+   "Ambang": 0.9,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.2393
+  },
+  {
+   "Ambang": 0.9,
+   "Metrik": "Specificity",
+   "Nilai": 0.997
+  },
+  {
+   "Ambang": 0.92,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5841
+  },
+  {
+   "Ambang": 0.92,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.2349
+  },
+  {
+   "Ambang": 0.92,
+   "Metrik": "Specificity",
+   "Nilai": 0.9992
+  },
+  {
+   "Ambang": 0.94,
+   "Metrik": "Accuracy",
+   "Nilai": 0.583
+  },
+  {
+   "Ambang": 0.94,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.2321
+  },
+  {
+   "Ambang": 0.94,
+   "Metrik": "Specificity",
+   "Nilai": 1.0
+  },
+  {
+   "Ambang": 0.96,
+   "Metrik": "Accuracy",
+   "Nilai": 0.5818
+  },
+  {
+   "Ambang": 0.96,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.2298
+  },
+  {
+   "Ambang": 0.96,
+   "Metrik": "Specificity",
+   "Nilai": 1.0
+  },
+  {
+   "Ambang": 0.98,
+   "Metrik": "Accuracy",
+   "Nilai": 0.457
+  },
+  {
+   "Ambang": 0.98,
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.0
+  },
+  {
+   "Ambang": 0.98,
+   "Metrik": "Specificity",
+   "Nilai": 1.0
+  }
+ ],
+ "d12_node": [
+  {
+   "Node": "PR",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 106,
+   "Betweenness": 0.3702,
+   "Closeness": 0.8011,
+   "Jumlah Order": 68925,
+   "Late Rate": 0.5472
+  },
+  {
+   "Node": "NJ",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 27,
+   "Betweenness": 0.2773,
+   "Closeness": 0.4222,
+   "Jumlah Order": 2619,
+   "Late Rate": 0.525
+  },
+  {
+   "Node": "TX",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 44,
+   "Betweenness": 0.2438,
+   "Closeness": 0.47,
+   "Jumlah Order": 8285,
+   "Late Rate": 0.5504
+  },
+  {
+   "Node": "CA",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 77,
+   "Betweenness": 0.2311,
+   "Closeness": 0.6026,
+   "Jumlah Order": 28487,
+   "Late Rate": 0.5548
+  },
+  {
+   "Node": "Noruega",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.2227,
+   "Closeness": 0.4519,
+   "Jumlah Order": 209,
+   "Late Rate": 0.4881
+  },
+  {
+   "Node": "Arabia Saudí",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 6,
+   "Betweenness": 0.202,
+   "Closeness": 0.4608,
+   "Jumlah Order": 632,
+   "Late Rate": 0.557
+  },
+  {
+   "Node": "NY",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 53,
+   "Betweenness": 0.1388,
+   "Closeness": 0.5,
+   "Jumlah Order": 10632,
+   "Late Rate": 0.5373
+  },
+  {
+   "Node": "Bélgica",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 4,
+   "Betweenness": 0.1002,
+   "Closeness": 0.4548,
+   "Jumlah Order": 413,
+   "Late Rate": 0.552
+  },
+  {
+   "Node": "Argentina",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 12,
+   "Betweenness": 0.0904,
+   "Closeness": 0.4796,
+   "Jumlah Order": 1584,
+   "Late Rate": 0.5139
+  },
+  {
+   "Node": "Nicaragua",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 18,
+   "Betweenness": 0.0786,
+   "Closeness": 0.5,
+   "Jumlah Order": 2764,
+   "Late Rate": 0.5561
+  },
+  {
+   "Node": "Ecuador",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0771,
+   "Closeness": 0.4519,
+   "Jumlah Order": 195,
+   "Late Rate": 0.6667
+  },
+  {
+   "Node": "LA",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 9,
+   "Betweenness": 0.0622,
+   "Closeness": 0.3811,
+   "Jumlah Order": 516,
+   "Late Rate": 0.5213
+  },
+  {
+   "Node": "Turquía",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 20,
+   "Betweenness": 0.0498,
+   "Closeness": 0.5072,
+   "Jumlah Order": 3198,
+   "Late Rate": 0.5582
+  },
+  {
+   "Node": "FL",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 38,
+   "Betweenness": 0.0483,
+   "Closeness": 0.4519,
+   "Jumlah Order": 4791,
+   "Late Rate": 0.5373
+  },
+  {
+   "Node": "VA",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 19,
+   "Betweenness": 0.0454,
+   "Closeness": 0.4029,
+   "Jumlah Order": 1351,
+   "Late Rate": 0.5404
+  },
+  {
+   "Node": "Brasil",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 31,
+   "Betweenness": 0.0433,
+   "Closeness": 0.5508,
+   "Jumlah Order": 7853,
+   "Late Rate": 0.5417
+  },
+  {
+   "Node": "CO",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 20,
+   "Betweenness": 0.0427,
+   "Closeness": 0.4052,
+   "Jumlah Order": 1397,
+   "Late Rate": 0.5075
+  },
+  {
+   "Node": "WA",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 9,
+   "Betweenness": 0.0341,
+   "Closeness": 0.3811,
+   "Jumlah Order": 506,
+   "Late Rate": 0.5751
+  },
+  {
+   "Node": "España",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 23,
+   "Betweenness": 0.0311,
+   "Closeness": 0.5184,
+   "Jumlah Order": 3668,
+   "Late Rate": 0.5543
+  },
+  {
+   "Node": "IL",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 42,
+   "Betweenness": 0.0302,
+   "Closeness": 0.4638,
+   "Jumlah Order": 6927,
+   "Late Rate": 0.5655
+  },
+  {
+   "Node": "MI",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 26,
+   "Betweenness": 0.0297,
+   "Closeness": 0.4196,
+   "Jumlah Order": 3127,
+   "Late Rate": 0.5318
+  },
+  {
+   "Node": "Estados Unidos",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 36,
+   "Betweenness": 0.0283,
+   "Closeness": 0.5732,
+   "Jumlah Order": 24721,
+   "Late Rate": 0.5501
+  },
+  {
+   "Node": "PA",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 29,
+   "Betweenness": 0.0271,
+   "Closeness": 0.4273,
+   "Jumlah Order": 3114,
+   "Late Rate": 0.5386
+  },
+  {
+   "Node": "Francia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 33,
+   "Betweenness": 0.0262,
+   "Closeness": 0.5595,
+   "Jumlah Order": 13071,
+   "Late Rate": 0.5547
+  },
+  {
+   "Node": "República Democrática del Congo",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 8,
+   "Betweenness": 0.0209,
+   "Closeness": 0.4669,
+   "Jumlah Order": 796,
+   "Late Rate": 0.598
+  },
+  {
+   "Node": "Guatemala",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 16,
+   "Betweenness": 0.0205,
+   "Closeness": 0.493,
+   "Jumlah Order": 2472,
+   "Late Rate": 0.5558
+  },
+  {
+   "Node": "Vietnam",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 6,
+   "Betweenness": 0.0204,
+   "Closeness": 0.4608,
+   "Jumlah Order": 531,
+   "Late Rate": 0.499
+  },
+  {
+   "Node": "AZ",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 22,
+   "Betweenness": 0.0175,
+   "Closeness": 0.4099,
+   "Jumlah Order": 2381,
+   "Late Rate": 0.522
+  },
+  {
+   "Node": "El Salvador",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 17,
+   "Betweenness": 0.0167,
+   "Closeness": 0.4965,
+   "Jumlah Order": 3360,
+   "Late Rate": 0.5637
+  },
+  {
+   "Node": "Italia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 24,
+   "Betweenness": 0.0153,
+   "Closeness": 0.5222,
+   "Jumlah Order": 4772,
+   "Late Rate": 0.5314
+  },
+  {
+   "Node": "Colombia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 11,
+   "Betweenness": 0.0142,
+   "Closeness": 0.4764,
+   "Jumlah Order": 1494,
+   "Late Rate": 0.5127
+  },
+  {
+   "Node": "MD",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 22,
+   "Betweenness": 0.0127,
+   "Closeness": 0.4099,
+   "Jumlah Order": 1879,
+   "Late Rate": 0.5721
+  },
+  {
+   "Node": "Reino Unido",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 27,
+   "Betweenness": 0.0123,
+   "Closeness": 0.5341,
+   "Jumlah Order": 7089,
+   "Late Rate": 0.535
+  },
+  {
+   "Node": "Somalia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0122,
+   "Closeness": 0.449,
+   "Jumlah Order": 89,
+   "Late Rate": 0.7191
+  },
+  {
+   "Node": "India",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 20,
+   "Betweenness": 0.0111,
+   "Closeness": 0.5072,
+   "Jumlah Order": 4501,
+   "Late Rate": 0.5639
+  },
+  {
+   "Node": "Honduras",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 18,
+   "Betweenness": 0.0104,
+   "Closeness": 0.5,
+   "Jumlah Order": 3338,
+   "Late Rate": 0.5303
+  },
+  {
+   "Node": "MN",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 6,
+   "Betweenness": 0.0096,
+   "Closeness": 0.375,
+   "Jumlah Order": 292,
+   "Late Rate": 0.5822
+  },
+  {
+   "Node": "Argelia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 5,
+   "Betweenness": 0.0091,
+   "Closeness": 0.4578,
+   "Jumlah Order": 347,
+   "Late Rate": 0.513
+  },
+  {
+   "Node": "Pakistán",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 5,
+   "Betweenness": 0.0089,
+   "Closeness": 0.4578,
+   "Jumlah Order": 559,
+   "Late Rate": 0.5438
+  },
+  {
+   "Node": "OH",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 26,
+   "Betweenness": 0.0086,
+   "Closeness": 0.4196,
+   "Jumlah Order": 3366,
+   "Late Rate": 0.5437
+  },
+  {
+   "Node": "Venezuela",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 7,
+   "Betweenness": 0.0085,
+   "Closeness": 0.4638,
+   "Jumlah Order": 759,
+   "Late Rate": 0.5323
+  },
+  {
+   "Node": "República Dominicana",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 16,
+   "Betweenness": 0.0082,
+   "Closeness": 0.493,
+   "Jumlah Order": 3287,
+   "Late Rate": 0.5488
+  },
+  {
+   "Node": "Nueva Zelanda",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 10,
+   "Betweenness": 0.0055,
+   "Closeness": 0.4732,
+   "Jumlah Order": 1296,
+   "Late Rate": 0.5262
+  },
+  {
+   "Node": "DC",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 4,
+   "Betweenness": 0.0052,
+   "Closeness": 0.3711,
+   "Jumlah Order": 222,
+   "Late Rate": 0.536
+  },
+  {
+   "Node": "MO",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 14,
+   "Betweenness": 0.0049,
+   "Closeness": 0.3917,
+   "Jumlah Order": 894,
+   "Late Rate": 0.5369
+  },
+  {
+   "Node": "GA",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 21,
+   "Betweenness": 0.0049,
+   "Closeness": 0.4075,
+   "Jumlah Order": 1876,
+   "Late Rate": 0.5597
+  },
+  {
+   "Node": "HI",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 14,
+   "Betweenness": 0.0046,
+   "Closeness": 0.3917,
+   "Jumlah Order": 823,
+   "Late Rate": 0.5407
+  },
+  {
+   "Node": "Nigeria",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 14,
+   "Betweenness": 0.0046,
+   "Closeness": 0.4862,
+   "Jumlah Order": 2022,
+   "Late Rate": 0.5316
+  },
+  {
+   "Node": "OR",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 14,
+   "Betweenness": 0.0045,
+   "Closeness": 0.3917,
+   "Jumlah Order": 1071,
+   "Late Rate": 0.5555
+  },
+  {
+   "Node": "Indonesia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 22,
+   "Betweenness": 0.0035,
+   "Closeness": 0.5146,
+   "Jumlah Order": 3971,
+   "Late Rate": 0.5475
+  },
+  {
+   "Node": "México",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 34,
+   "Betweenness": 0.0028,
+   "Closeness": 0.564,
+   "Jumlah Order": 13056,
+   "Late Rate": 0.5508
+  },
+  {
+   "Node": "CT",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 9,
+   "Betweenness": 0.0025,
+   "Closeness": 0.3811,
+   "Jumlah Order": 608,
+   "Late Rate": 0.5872
+  },
+  {
+   "Node": "NV",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 12,
+   "Betweenness": 0.0024,
+   "Closeness": 0.3874,
+   "Jumlah Order": 907,
+   "Late Rate": 0.58
+  },
+  {
+   "Node": "Alemania",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 29,
+   "Betweenness": 0.0022,
+   "Closeness": 0.5423,
+   "Jumlah Order": 9387,
+   "Late Rate": 0.5646
+  },
+  {
+   "Node": "China",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 23,
+   "Betweenness": 0.0019,
+   "Closeness": 0.5184,
+   "Jumlah Order": 5494,
+   "Late Rate": 0.5444
+  },
+  {
+   "Node": "Australia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 30,
+   "Betweenness": 0.0018,
+   "Closeness": 0.5465,
+   "Jumlah Order": 8356,
+   "Late Rate": 0.5424
+  },
+  {
+   "Node": "Austria",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 8,
+   "Betweenness": 0.0018,
+   "Closeness": 0.4669,
+   "Jumlah Order": 1089,
+   "Late Rate": 0.5886
+  },
+  {
+   "Node": "UT",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 8,
+   "Betweenness": 0.0018,
+   "Closeness": 0.379,
+   "Jumlah Order": 536,
+   "Late Rate": 0.5392
+  },
+  {
+   "Node": "IN",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 6,
+   "Betweenness": 0.0016,
+   "Closeness": 0.375,
+   "Jumlah Order": 270,
+   "Late Rate": 0.5296
+  },
+  {
+   "Node": "TN",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 16,
+   "Betweenness": 0.0015,
+   "Closeness": 0.3961,
+   "Jumlah Order": 1094,
+   "Late Rate": 0.5329
+  },
+  {
+   "Node": "NM",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 8,
+   "Betweenness": 0.0014,
+   "Closeness": 0.379,
+   "Jumlah Order": 462,
+   "Late Rate": 0.6753
+  },
+  {
+   "Node": "Marruecos",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 7,
+   "Betweenness": 0.0013,
+   "Closeness": 0.4638,
+   "Jumlah Order": 883,
+   "Late Rate": 0.5617
+  },
+  {
+   "Node": "NC",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 18,
+   "Betweenness": 0.0011,
+   "Closeness": 0.4006,
+   "Jumlah Order": 1489,
+   "Late Rate": 0.5809
+  },
+  {
+   "Node": "Cuba",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 18,
+   "Betweenness": 0.0011,
+   "Closeness": 0.5,
+   "Jumlah Order": 3285,
+   "Late Rate": 0.5114
+  },
+  {
+   "Node": "Países Bajos",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 11,
+   "Betweenness": 0.0009,
+   "Closeness": 0.4764,
+   "Jumlah Order": 1654,
+   "Late Rate": 0.5466
+  },
+  {
+   "Node": "KS",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 4,
+   "Betweenness": 0.0008,
+   "Closeness": 0.3711,
+   "Jumlah Order": 187,
+   "Late Rate": 0.5829
+  },
+  {
+   "Node": "Ucrania",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 7,
+   "Betweenness": 0.0008,
+   "Closeness": 0.4638,
+   "Jumlah Order": 759,
+   "Late Rate": 0.5521
+  },
+  {
+   "Node": "Filipinas",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 12,
+   "Betweenness": 0.0005,
+   "Closeness": 0.4796,
+   "Jumlah Order": 1789,
+   "Late Rate": 0.5528
+  },
+  {
+   "Node": "MA",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 13,
+   "Betweenness": 0.0004,
+   "Closeness": 0.3895,
+   "Jumlah Order": 1075,
+   "Late Rate": 0.5451
+  },
+  {
+   "Node": "WI",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 7,
+   "Betweenness": 0.0003,
+   "Closeness": 0.377,
+   "Jumlah Order": 402,
+   "Late Rate": 0.5149
+  },
+  {
+   "Node": "KY",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 3,
+   "Betweenness": 0.0003,
+   "Closeness": 0.3691,
+   "Jumlah Order": 141,
+   "Late Rate": 0.5745
+  },
+  {
+   "Node": "Suecia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 5,
+   "Betweenness": 0.0003,
+   "Closeness": 0.4578,
+   "Jumlah Order": 645,
+   "Late Rate": 0.6295
+  },
+  {
+   "Node": "Panamá",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 10,
+   "Betweenness": 0.0002,
+   "Closeness": 0.4732,
+   "Jumlah Order": 1562,
+   "Late Rate": 0.5038
+  },
+  {
+   "Node": "Rusia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 5,
+   "Betweenness": 0.0,
+   "Closeness": 0.4578,
+   "Jumlah Order": 776,
+   "Late Rate": 0.5528
+  },
+  {
+   "Node": "Finlandia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 179,
+   "Late Rate": 0.4693
+  },
+  {
+   "Node": "Canada",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 5,
+   "Betweenness": 0.0,
+   "Closeness": 0.4578,
+   "Jumlah Order": 713,
+   "Late Rate": 0.5105
+  },
+  {
+   "Node": "Egipto",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 6,
+   "Betweenness": 0.0,
+   "Closeness": 0.4608,
+   "Jumlah Order": 890,
+   "Late Rate": 0.5607
+  },
+  {
+   "Node": "Myanmar (Birmania)",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.4519,
+   "Jumlah Order": 278,
+   "Late Rate": 0.5863
+  },
+  {
+   "Node": "Togo",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 53,
+   "Late Rate": 0.3019
+  },
+  {
+   "Node": "Zambia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 137,
+   "Late Rate": 0.5402
+  },
+  {
+   "Node": "Senegal",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 146,
+   "Late Rate": 0.4452
+  },
+  {
+   "Node": "Madagascar",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 61,
+   "Late Rate": 0.623
+  },
+  {
+   "Node": "Israel",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 128,
+   "Late Rate": 0.6328
+  },
+  {
+   "Node": "Uzbekistán",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 51,
+   "Late Rate": 0.3333
+  },
+  {
+   "Node": "Costa de Marfil",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 102,
+   "Late Rate": 0.6471
+  },
+  {
+   "Node": "Hungría",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 108,
+   "Late Rate": 0.5371
+  },
+  {
+   "Node": "SudAfrica",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 6,
+   "Betweenness": 0.0,
+   "Closeness": 0.4608,
+   "Jumlah Order": 765,
+   "Late Rate": 0.5085
+  },
+  {
+   "Node": "Bangladés",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 261,
+   "Late Rate": 0.5402
+  },
+  {
+   "Node": "Japón",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.4519,
+   "Jumlah Order": 511,
+   "Late Rate": 0.5127
+  },
+  {
+   "Node": "Irlanda",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 279,
+   "Late Rate": 0.5125
+  },
+  {
+   "Node": "Bielorrusia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 97,
+   "Late Rate": 0.5979
+  },
+  {
+   "Node": "Rumania",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.4519,
+   "Jumlah Order": 312,
+   "Late Rate": 0.5897
+  },
+  {
+   "Node": "Polonia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 5,
+   "Betweenness": 0.0,
+   "Closeness": 0.4578,
+   "Jumlah Order": 486,
+   "Late Rate": 0.5762
+  },
+  {
+   "Node": "Singapur",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 263,
+   "Late Rate": 0.5437
+  },
+  {
+   "Node": "RI",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.3653,
+   "Jumlah Order": 55,
+   "Late Rate": 0.5818
+  },
+  {
+   "Node": "Martinica",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 59,
+   "Late Rate": 0.5424
+  },
+  {
+   "Node": "Tailandia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 4,
+   "Betweenness": 0.0,
+   "Closeness": 0.4548,
+   "Jumlah Order": 585,
+   "Late Rate": 0.5761
+  },
+  {
+   "Node": "Bolivia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 127,
+   "Late Rate": 0.5984
+  },
+  {
+   "Node": "Chile",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 4,
+   "Betweenness": 0.0,
+   "Closeness": 0.4548,
+   "Jumlah Order": 490,
+   "Late Rate": 0.5877
+  },
+  {
+   "Node": "Georgia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 31,
+   "Late Rate": 0.8065
+  },
+  {
+   "Node": "Yemen",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 31,
+   "Late Rate": 0.8387
+  },
+  {
+   "Node": "Mozambique",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 131,
+   "Late Rate": 0.5801
+  },
+  {
+   "Node": "Irak",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 6,
+   "Betweenness": 0.0,
+   "Closeness": 0.4608,
+   "Jumlah Order": 722,
+   "Late Rate": 0.4972
+  },
+  {
+   "Node": "Malasia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.4519,
+   "Jumlah Order": 343,
+   "Late Rate": 0.6589
+  },
+  {
+   "Node": "OK",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.3653,
+   "Jumlah Order": 30,
+   "Late Rate": 0.1667
+  },
+  {
+   "Node": "Croacia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 37,
+   "Late Rate": 0.6486
+  },
+  {
+   "Node": "Kazajistán",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 137,
+   "Late Rate": 0.562
+  },
+  {
+   "Node": "República Checa",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 67,
+   "Late Rate": 0.6418
+  },
+  {
+   "Node": "SC",
+   "Tipe Node": "Lokasi pelanggan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.3691,
+   "Jumlah Order": 183,
+   "Late Rate": 0.4918
+  },
+  {
+   "Node": "Portugal",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 193,
+   "Late Rate": 0.5078
+  },
+  {
+   "Node": "Kenia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 124,
+   "Late Rate": 0.5242
+  },
+  {
+   "Node": "Trinidad y Tobago",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 53,
+   "Late Rate": 0.4528
+  },
+  {
+   "Node": "Irán",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 7,
+   "Betweenness": 0.0,
+   "Closeness": 0.4638,
+   "Jumlah Order": 1136,
+   "Late Rate": 0.529
+  },
+  {
+   "Node": "Suiza",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 200,
+   "Late Rate": 0.555
+  },
+  {
+   "Node": "Corea del Sur",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.4519,
+   "Jumlah Order": 348,
+   "Late Rate": 0.592
+  },
+  {
+   "Node": "Jamaica",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 110,
+   "Late Rate": 0.4909
+  },
+  {
+   "Node": "Mongolia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 36,
+   "Late Rate": 0.6667
+  },
+  {
+   "Node": "Uganda",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 32,
+   "Late Rate": 0.2813
+  },
+  {
+   "Node": "Nepal",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 35,
+   "Late Rate": 0.4286
+  },
+  {
+   "Node": "Níger",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 47,
+   "Late Rate": 0.617
+  },
+  {
+   "Node": "Angola",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 114,
+   "Late Rate": 0.6579
+  },
+  {
+   "Node": "Tanzania",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 180,
+   "Late Rate": 0.5556
+  },
+  {
+   "Node": "Dinamarca",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 151,
+   "Late Rate": 0.4834
+  },
+  {
+   "Node": "Ghana",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 109,
+   "Late Rate": 0.5137
+  },
+  {
+   "Node": "Barbados",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 51,
+   "Late Rate": 0.6275
+  },
+  {
+   "Node": "Kirguistán",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 36,
+   "Late Rate": 0.5278
+  },
+  {
+   "Node": "Paraguay",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 35,
+   "Late Rate": 0.5714
+  },
+  {
+   "Node": "Haití",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.4519,
+   "Jumlah Order": 334,
+   "Late Rate": 0.521
+  },
+  {
+   "Node": "Benín",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 41,
+   "Late Rate": 0.5366
+  },
+  {
+   "Node": "Uruguay",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 68,
+   "Late Rate": 0.7794
+  },
+  {
+   "Node": "Perú",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 3,
+   "Betweenness": 0.0,
+   "Closeness": 0.4519,
+   "Jumlah Order": 449,
+   "Late Rate": 0.5635
+  },
+  {
+   "Node": "Zimbabue",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 74,
+   "Late Rate": 0.6622
+  },
+  {
+   "Node": "Camerún",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 149,
+   "Late Rate": 0.5369
+  },
+  {
+   "Node": "Sudán",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 2,
+   "Betweenness": 0.0,
+   "Closeness": 0.449,
+   "Jumlah Order": 125,
+   "Late Rate": 0.472
+  },
+  {
+   "Node": "Afganistán",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 59,
+   "Late Rate": 0.5763
+  },
+  {
+   "Node": "Lituania",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 56,
+   "Late Rate": 0.7321
+  },
+  {
+   "Node": "Bulgaria",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 69,
+   "Late Rate": 0.4638
+  },
+  {
+   "Node": "Mali",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 55,
+   "Late Rate": 0.7091
+  },
+  {
+   "Node": "Ruanda",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 39,
+   "Late Rate": 0.5128
+  },
+  {
+   "Node": "Libia",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 32,
+   "Late Rate": 0.4688
+  },
+  {
+   "Node": "Camboya",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 35,
+   "Late Rate": 0.7143
+  },
+  {
+   "Node": "Jordania",
+   "Tipe Node": "Negara tujuan",
+   "Degree": 1,
+   "Betweenness": 0.0,
+   "Closeness": 0.4462,
+   "Jumlah Order": 39,
+   "Late Rate": 0.5385
+  }
+ ],
+ "d13_node_crosstab": [
+  {
+   "Node": "PR · Lokasi pelanggan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.3702,
+   "Satuan": "skor",
+   "Tampil": "0,3702"
+  },
+  {
+   "Node": "PR · Lokasi pelanggan",
+   "Metrik": "Degree",
+   "Nilai": 106,
+   "Satuan": "jumlah",
+   "Tampil": 106
+  },
+  {
+   "Node": "PR · Lokasi pelanggan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 68925,
+   "Satuan": "order",
+   "Tampil": 68.925
+  },
+  {
+   "Node": "PR · Lokasi pelanggan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5472,
+   "Satuan": "rasio",
+   "Tampil": "54,72%"
+  },
+  {
+   "Node": "NJ · Lokasi pelanggan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.2773,
+   "Satuan": "skor",
+   "Tampil": "0,2773"
+  },
+  {
+   "Node": "NJ · Lokasi pelanggan",
+   "Metrik": "Degree",
+   "Nilai": 27,
+   "Satuan": "jumlah",
+   "Tampil": 27
+  },
+  {
+   "Node": "NJ · Lokasi pelanggan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 2619,
+   "Satuan": "order",
+   "Tampil": 2.619
+  },
+  {
+   "Node": "NJ · Lokasi pelanggan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.525,
+   "Satuan": "rasio",
+   "Tampil": "52,50%"
+  },
+  {
+   "Node": "TX · Lokasi pelanggan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.2438,
+   "Satuan": "skor",
+   "Tampil": "0,2438"
+  },
+  {
+   "Node": "TX · Lokasi pelanggan",
+   "Metrik": "Degree",
+   "Nilai": 44,
+   "Satuan": "jumlah",
+   "Tampil": 44
+  },
+  {
+   "Node": "TX · Lokasi pelanggan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 8285,
+   "Satuan": "order",
+   "Tampil": 8.285
+  },
+  {
+   "Node": "TX · Lokasi pelanggan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5504,
+   "Satuan": "rasio",
+   "Tampil": "55,04%"
+  },
+  {
+   "Node": "CA · Lokasi pelanggan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.2311,
+   "Satuan": "skor",
+   "Tampil": "0,2311"
+  },
+  {
+   "Node": "CA · Lokasi pelanggan",
+   "Metrik": "Degree",
+   "Nilai": 77,
+   "Satuan": "jumlah",
+   "Tampil": 77
+  },
+  {
+   "Node": "CA · Lokasi pelanggan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 28487,
+   "Satuan": "order",
+   "Tampil": 28.487
+  },
+  {
+   "Node": "CA · Lokasi pelanggan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5548,
+   "Satuan": "rasio",
+   "Tampil": "55,48%"
+  },
+  {
+   "Node": "Noruega · Negara tujuan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.2227,
+   "Satuan": "skor",
+   "Tampil": "0,2227"
+  },
+  {
+   "Node": "Noruega · Negara tujuan",
+   "Metrik": "Degree",
+   "Nilai": 3,
+   "Satuan": "jumlah",
+   "Tampil": 3
+  },
+  {
+   "Node": "Noruega · Negara tujuan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 209,
+   "Satuan": "order",
+   "Tampil": 209
+  },
+  {
+   "Node": "Noruega · Negara tujuan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.4881,
+   "Satuan": "rasio",
+   "Tampil": "48,81%"
+  },
+  {
+   "Node": "Arabia Saudí · Negara tujuan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.202,
+   "Satuan": "skor",
+   "Tampil": "0,2020"
+  },
+  {
+   "Node": "Arabia Saudí · Negara tujuan",
+   "Metrik": "Degree",
+   "Nilai": 6,
+   "Satuan": "jumlah",
+   "Tampil": 6
+  },
+  {
+   "Node": "Arabia Saudí · Negara tujuan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 632,
+   "Satuan": "order",
+   "Tampil": 632
+  },
+  {
+   "Node": "Arabia Saudí · Negara tujuan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.557,
+   "Satuan": "rasio",
+   "Tampil": "55,70%"
+  },
+  {
+   "Node": "NY · Lokasi pelanggan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.1388,
+   "Satuan": "skor",
+   "Tampil": "0,1388"
+  },
+  {
+   "Node": "NY · Lokasi pelanggan",
+   "Metrik": "Degree",
+   "Nilai": 53,
+   "Satuan": "jumlah",
+   "Tampil": 53
+  },
+  {
+   "Node": "NY · Lokasi pelanggan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 10632,
+   "Satuan": "order",
+   "Tampil": 10.632
+  },
+  {
+   "Node": "NY · Lokasi pelanggan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5373,
+   "Satuan": "rasio",
+   "Tampil": "53,73%"
+  },
+  {
+   "Node": "Bélgica · Negara tujuan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.1002,
+   "Satuan": "skor",
+   "Tampil": "0,1002"
+  },
+  {
+   "Node": "Bélgica · Negara tujuan",
+   "Metrik": "Degree",
+   "Nilai": 4,
+   "Satuan": "jumlah",
+   "Tampil": 4
+  },
+  {
+   "Node": "Bélgica · Negara tujuan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 413,
+   "Satuan": "order",
+   "Tampil": 413
+  },
+  {
+   "Node": "Bélgica · Negara tujuan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.552,
+   "Satuan": "rasio",
+   "Tampil": "55,20%"
+  },
+  {
+   "Node": "Argentina · Negara tujuan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.0904,
+   "Satuan": "skor",
+   "Tampil": "0,0904"
+  },
+  {
+   "Node": "Argentina · Negara tujuan",
+   "Metrik": "Degree",
+   "Nilai": 12,
+   "Satuan": "jumlah",
+   "Tampil": 12
+  },
+  {
+   "Node": "Argentina · Negara tujuan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 1584,
+   "Satuan": "order",
+   "Tampil": 1.584
+  },
+  {
+   "Node": "Argentina · Negara tujuan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5139,
+   "Satuan": "rasio",
+   "Tampil": "51,39%"
+  },
+  {
+   "Node": "Nicaragua · Negara tujuan",
+   "Metrik": "Betweenness",
+   "Nilai": 0.0786,
+   "Satuan": "skor",
+   "Tampil": "0,0786"
+  },
+  {
+   "Node": "Nicaragua · Negara tujuan",
+   "Metrik": "Degree",
+   "Nilai": 18,
+   "Satuan": "jumlah",
+   "Tampil": 18
+  },
+  {
+   "Node": "Nicaragua · Negara tujuan",
+   "Metrik": "Jumlah Order",
+   "Nilai": 2764,
+   "Satuan": "order",
+   "Tampil": 2.764
+  },
+  {
+   "Node": "Nicaragua · Negara tujuan",
+   "Metrik": "Late Rate",
+   "Nilai": 0.5561,
+   "Satuan": "rasio",
+   "Tampil": "55,61%"
+  }
+ ],
+ "d14_relasi": [
+  {
+   "Relasi": "PR → Estados Unidos",
+   "Jumlah Order": 9398,
+   "Late Rate": 0.5468
+  },
+  {
+   "Relasi": "PR → Francia",
+   "Jumlah Order": 5253,
+   "Late Rate": 0.5469
+  },
+  {
+   "Relasi": "PR → México",
+   "Jumlah Order": 5077,
+   "Late Rate": 0.5511
+  },
+  {
+   "Relasi": "CA → Estados Unidos",
+   "Jumlah Order": 4040,
+   "Late Rate": 0.5354
+  },
+  {
+   "Relasi": "PR → Alemania",
+   "Jumlah Order": 3757,
+   "Late Rate": 0.5595
+  },
+  {
+   "Relasi": "PR → Australia",
+   "Jumlah Order": 3220,
+   "Late Rate": 0.546
+  },
+  {
+   "Relasi": "PR → Brasil",
+   "Jumlah Order": 3103,
+   "Late Rate": 0.5266
+  },
+  {
+   "Relasi": "PR → Reino Unido",
+   "Jumlah Order": 2876,
+   "Late Rate": 0.5497
+  },
+  {
+   "Relasi": "PR → China",
+   "Jumlah Order": 2193,
+   "Late Rate": 0.5449
+  },
+  {
+   "Relasi": "CA → México",
+   "Jumlah Order": 2131,
+   "Late Rate": 0.572
+  },
+  {
+   "Relasi": "CA → Francia",
+   "Jumlah Order": 2019,
+   "Late Rate": 0.5592
+  },
+  {
+   "Relasi": "PR → Italia",
+   "Jumlah Order": 1960,
+   "Late Rate": 0.5311
+  }
+ ],
+ "d15_kategori": [
+  {
+   "Kategori Produk": "Tennis & Racquet",
+   "Degree Centrality": 0.3226,
+   "Betweenness": 0.2452,
+   "Late Rate": 0.5579,
+   "Jumlah Order": 328
+  },
+  {
+   "Kategori Produk": "Electronics",
+   "Degree Centrality": 0.5806,
+   "Betweenness": 0.2419,
+   "Late Rate": 0.5608,
+   "Jumlah Order": 3156
+  },
+  {
+   "Kategori Produk": "Shop By Sport",
+   "Degree Centrality": 0.8387,
+   "Betweenness": 0.2204,
+   "Late Rate": 0.5515,
+   "Jumlah Order": 10984
+  },
+  {
+   "Kategori Produk": "Cleats",
+   "Degree Centrality": 1.0,
+   "Betweenness": 0.1204,
+   "Late Rate": 0.5497,
+   "Jumlah Order": 24551
+  },
+  {
+   "Kategori Produk": "Strength Training",
+   "Degree Centrality": 0.2581,
+   "Betweenness": 0.1129,
+   "Late Rate": 0.5766,
+   "Jumlah Order": 111
+  },
+  {
+   "Kategori Produk": "Baseball & Softball",
+   "Degree Centrality": 0.3871,
+   "Betweenness": 0.1086,
+   "Late Rate": 0.5522,
+   "Jumlah Order": 632
+  },
+  {
+   "Kategori Produk": "Camping & Hiking",
+   "Degree Centrality": 0.9032,
+   "Betweenness": 0.0882,
+   "Late Rate": 0.5453,
+   "Jumlah Order": 13729
+  },
+  {
+   "Kategori Produk": "Hockey",
+   "Degree Centrality": 0.3871,
+   "Betweenness": 0.0548,
+   "Late Rate": 0.5358,
+   "Jumlah Order": 614
+  },
+  {
+   "Kategori Produk": "Cardio Equipment",
+   "Degree Centrality": 0.9032,
+   "Betweenness": 0.0419,
+   "Late Rate": 0.545,
+   "Jumlah Order": 12487
+  },
+  {
+   "Kategori Produk": "Women's Golf Clubs",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0398,
+   "Late Rate": 0.5359,
+   "Jumlah Order": 181
+  },
+  {
+   "Kategori Produk": "Women's Apparel",
+   "Degree Centrality": 0.9355,
+   "Betweenness": 0.0366,
+   "Late Rate": 0.5456,
+   "Jumlah Order": 21035
+  },
+  {
+   "Kategori Produk": "Men's Footwear",
+   "Degree Centrality": 0.9355,
+   "Betweenness": 0.0258,
+   "Late Rate": 0.5449,
+   "Jumlah Order": 22246
+  },
+  {
+   "Kategori Produk": "Hunting & Shooting",
+   "Degree Centrality": 0.3226,
+   "Betweenness": 0.0118,
+   "Late Rate": 0.5614,
+   "Jumlah Order": 440
+  },
+  {
+   "Kategori Produk": "Water Sports",
+   "Degree Centrality": 0.9032,
+   "Betweenness": 0.0108,
+   "Late Rate": 0.5481,
+   "Jumlah Order": 15540
+  },
+  {
+   "Kategori Produk": "Soccer",
+   "Degree Centrality": 0.2581,
+   "Betweenness": 0.0086,
+   "Late Rate": 0.5435,
+   "Jumlah Order": 138
+  },
+  {
+   "Kategori Produk": "Basketball",
+   "Degree Centrality": 0.0645,
+   "Betweenness": 0.0065,
+   "Late Rate": 0.5522,
+   "Jumlah Order": 67
+  },
+  {
+   "Kategori Produk": "Accessories",
+   "Degree Centrality": 0.5161,
+   "Betweenness": 0.0065,
+   "Late Rate": 0.5697,
+   "Jumlah Order": 1780
+  },
+  {
+   "Kategori Produk": "Golf Bags & Carts",
+   "Degree Centrality": 0.0645,
+   "Betweenness": 0.0065,
+   "Late Rate": 0.6885,
+   "Jumlah Order": 61
+  },
+  {
+   "Kategori Produk": "Girls' Apparel",
+   "Degree Centrality": 0.4516,
+   "Betweenness": 0.0043,
+   "Late Rate": 0.5529,
+   "Jumlah Order": 1201
+  },
+  {
+   "Kategori Produk": "Golf Balls",
+   "Degree Centrality": 0.4839,
+   "Betweenness": 0.0043,
+   "Late Rate": 0.5458,
+   "Jumlah Order": 1475
+  },
+  {
+   "Kategori Produk": "Golf Gloves",
+   "Degree Centrality": 0.4516,
+   "Betweenness": 0.0022,
+   "Late Rate": 0.5626,
+   "Jumlah Order": 1070
+  },
+  {
+   "Kategori Produk": "As Seen on  TV!",
+   "Degree Centrality": 0.0323,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5735,
+   "Jumlah Order": 68
+  },
+  {
+   "Kategori Produk": "Lacrosse",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0,
+   "Late Rate": 0.6006,
+   "Jumlah Order": 343
+  },
+  {
+   "Kategori Produk": "Golf Shoes",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5553,
+   "Jumlah Order": 524
+  },
+  {
+   "Kategori Produk": "Men's Golf Clubs",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0,
+   "Late Rate": 0.477,
+   "Jumlah Order": 283
+  },
+  {
+   "Kategori Produk": "Indoor/Outdoor Games",
+   "Degree Centrality": 0.9032,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5475,
+   "Jumlah Order": 19298
+  },
+  {
+   "Kategori Produk": "Fitness Accessories",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5696,
+   "Jumlah Order": 309
+  },
+  {
+   "Kategori Produk": "Golf Apparel",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5193,
+   "Jumlah Order": 441
+  },
+  {
+   "Kategori Produk": "Boxing & MMA",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5626,
+   "Jumlah Order": 423
+  },
+  {
+   "Kategori Produk": "Trade-In",
+   "Degree Centrality": 0.4194,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5565,
+   "Jumlah Order": 974
+  },
+  {
+   "Kategori Produk": "Fishing",
+   "Degree Centrality": 0.9032,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5493,
+   "Jumlah Order": 17325
+  },
+  {
+   "Kategori Produk": "Kids' Golf Clubs",
+   "Degree Centrality": 0.2903,
+   "Betweenness": 0.0,
+   "Late Rate": 0.5339,
+   "Jumlah Order": 384
+  }
+ ],
+ "d16_geo": [
+  {
+   "Customer State": "PR",
+   "Customer Country": "Puerto Rico",
+   "Jumlah Order": 69373,
+   "Late Rate": 0.5476,
+   "Latitude": 18.404934,
+   "Longitude": -66.610403
+  },
+  {
+   "Customer State": "CA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 29223,
+   "Late Rate": 0.5537,
+   "Latitude": 34.916776,
+   "Longitude": -118.851218
+  },
+  {
+   "Customer State": "NY",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 11327,
+   "Late Rate": 0.5392,
+   "Latitude": 40.97298,
+   "Longitude": -74.974607
+  },
+  {
+   "Customer State": "TX",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 9103,
+   "Late Rate": 0.5523,
+   "Latitude": 30.491533,
+   "Longitude": -98.027843
+  },
+  {
+   "Customer State": "IL",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 7631,
+   "Late Rate": 0.5639,
+   "Latitude": 41.619379,
+   "Longitude": -88.649178
+  },
+  {
+   "Customer State": "FL",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 5456,
+   "Late Rate": 0.5392,
+   "Latitude": 27.16681,
+   "Longitude": -80.865349
+  },
+  {
+   "Customer State": "OH",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 4095,
+   "Late Rate": 0.5524,
+   "Latitude": 40.399416,
+   "Longitude": -83.216111
+  },
+  {
+   "Customer State": "PA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 3824,
+   "Late Rate": 0.5358,
+   "Latitude": 39.911146,
+   "Longitude": -76.89208
+  },
+  {
+   "Customer State": "MI",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 3804,
+   "Late Rate": 0.5352,
+   "Latitude": 42.152423,
+   "Longitude": -84.58531
+  },
+  {
+   "Customer State": "NJ",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 3191,
+   "Late Rate": 0.5255,
+   "Latitude": 40.410025,
+   "Longitude": -75.421883
+  },
+  {
+   "Customer State": "AZ",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 3026,
+   "Late Rate": 0.5195,
+   "Latitude": 33.246459,
+   "Longitude": -111.986178
+  },
+  {
+   "Customer State": "GA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 2503,
+   "Late Rate": 0.5653,
+   "Latitude": 33.67418,
+   "Longitude": -84.195046
+  },
+  {
+   "Customer State": "MD",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 2415,
+   "Late Rate": 0.5694,
+   "Latitude": 39.095317,
+   "Longitude": -78.244648
+  },
+  {
+   "Customer State": "NC",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1992,
+   "Late Rate": 0.5658,
+   "Latitude": 35.617696,
+   "Longitude": -79.758279
+  },
+  {
+   "Customer State": "CO",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1914,
+   "Late Rate": 0.5068,
+   "Latitude": 39.325574,
+   "Longitude": -103.958537
+  },
+  {
+   "Customer State": "VA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1849,
+   "Late Rate": 0.5495,
+   "Latitude": 37.347097,
+   "Longitude": -76.726552
+  },
+  {
+   "Customer State": "OR",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1668,
+   "Late Rate": 0.5438,
+   "Latitude": 44.596088,
+   "Longitude": -114.493873
+  },
+  {
+   "Customer State": "MA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1607,
+   "Late Rate": 0.5507,
+   "Latitude": 41.950918,
+   "Longitude": -72.75053
+  },
+  {
+   "Customer State": "TN",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1582,
+   "Late Rate": 0.5626,
+   "Latitude": 35.562036,
+   "Longitude": -88.172474
+  },
+  {
+   "Customer State": "NV",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1440,
+   "Late Rate": 0.5521,
+   "Latitude": 36.156369,
+   "Longitude": -109.872683
+  },
+  {
+   "Customer State": "MO",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1354,
+   "Late Rate": 0.5266,
+   "Latitude": 38.590617,
+   "Longitude": -90.898318
+  },
+  {
+   "Customer State": "HI",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1248,
+   "Late Rate": 0.5417,
+   "Latitude": 22.139599,
+   "Longitude": -155.98389
+  },
+  {
+   "Customer State": "CT",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1094,
+   "Late Rate": 0.5558,
+   "Latitude": 40.534258,
+   "Longitude": -77.197589
+  },
+  {
+   "Customer State": "UT",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 968,
+   "Late Rate": 0.5362,
+   "Latitude": 40.732053,
+   "Longitude": -111.797853
+  },
+  {
+   "Customer State": "NM",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 949,
+   "Late Rate": 0.6027,
+   "Latitude": 34.542449,
+   "Longitude": -106.304634
+  },
+  {
+   "Customer State": "LA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 948,
+   "Late Rate": 0.5274,
+   "Latitude": 30.11645,
+   "Longitude": -90.986176
+  },
+  {
+   "Customer State": "WA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 920,
+   "Late Rate": 0.5641,
+   "Latitude": 47.27644,
+   "Longitude": -121.446092
+  },
+  {
+   "Customer State": "WI",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 850,
+   "Late Rate": 0.5212,
+   "Latitude": 42.950993,
+   "Longitude": -90.099747
+  },
+  {
+   "Customer State": "MN",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 672,
+   "Late Rate": 0.5699,
+   "Latitude": 44.149305,
+   "Longitude": -95.163112
+  },
+  {
+   "Customer State": "SC",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 665,
+   "Late Rate": 0.5699,
+   "Latitude": 34.005631,
+   "Longitude": -80.647941
+  },
+  {
+   "Customer State": "IN",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 581,
+   "Late Rate": 0.5611,
+   "Latitude": 39.171227,
+   "Longitude": -86.836892
+  },
+  {
+   "Customer State": "DC",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 579,
+   "Late Rate": 0.5786,
+   "Latitude": 38.894371,
+   "Longitude": -68.499987
+  },
+  {
+   "Customer State": "KY",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 487,
+   "Late Rate": 0.5565,
+   "Latitude": 37.834496,
+   "Longitude": -85.538272
+  },
+  {
+   "Customer State": "KS",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 458,
+   "Late Rate": 0.5371,
+   "Latitude": 38.359086,
+   "Longitude": -96.735273
+  },
+  {
+   "Customer State": "DE",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 269,
+   "Late Rate": 0.6022,
+   "Latitude": 39.522887,
+   "Longitude": -77.087296
+  },
+  {
+   "Customer State": "RI",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 243,
+   "Late Rate": 0.5473,
+   "Latitude": 41.916214,
+   "Longitude": -71.437838
+  },
+  {
+   "Customer State": "WV",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 241,
+   "Late Rate": 0.5353,
+   "Latitude": 39.706893,
+   "Longitude": -79.098112
+  },
+  {
+   "Customer State": "OK",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 232,
+   "Late Rate": 0.5948,
+   "Latitude": 35.452331,
+   "Longitude": -98.637176
+  },
+  {
+   "Customer State": "ND",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 215,
+   "Late Rate": 0.5674,
+   "Latitude": 46.820928,
+   "Longitude": -99.334497
+  },
+  {
+   "Customer State": "ID",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 167,
+   "Late Rate": 0.515,
+   "Latitude": 43.570789,
+   "Longitude": -116.394427
+  },
+  {
+   "Customer State": "AR",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 164,
+   "Late Rate": 0.5793,
+   "Latitude": 34.662856,
+   "Longitude": -91.889556
+  },
+  {
+   "Customer State": "MT",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 87,
+   "Late Rate": 0.4598,
+   "Latitude": 45.702448,
+   "Longitude": -108.509054
+  },
+  {
+   "Customer State": "IA",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 67,
+   "Late Rate": 0.5522,
+   "Latitude": 42.519478,
+   "Longitude": -90.679483
+  },
+  {
+   "Customer State": "AL",
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 35,
+   "Late Rate": 0.4857,
+   "Latitude": 33.620781,
+   "Longitude": -86.680969
+  },
+  {
+   "Customer State": 95758,
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 2,
+   "Late Rate": 0.5,
+   "Latitude": 38.771366,
+   "Longitude": -122.583832
+  },
+  {
+   "Customer State": 91732,
+   "Customer Country": "EE. UU.",
+   "Jumlah Order": 1,
+   "Late Rate": 0.0,
+   "Latitude": 34.071892,
+   "Longitude": -118.013886
+  }
+ ],
+ "d17_stabilitas": [
+  {
+   "Bulan": "2017-04",
+   "Metrik": "Accuracy",
+   "Nilai": 0.6874
+  },
+  {
+   "Bulan": "2017-04",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5193
+  },
+  {
+   "Bulan": "2017-05",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7117
+  },
+  {
+   "Bulan": "2017-05",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5726
+  },
+  {
+   "Bulan": "2017-06",
+   "Metrik": "Accuracy",
+   "Nilai": 0.692
+  },
+  {
+   "Bulan": "2017-06",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5481
+  },
+  {
+   "Bulan": "2017-07",
+   "Metrik": "Accuracy",
+   "Nilai": 0.733
+  },
+  {
+   "Bulan": "2017-07",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.6189
+  },
+  {
+   "Bulan": "2017-08",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7188
+  },
+  {
+   "Bulan": "2017-08",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.6089
+  },
+  {
+   "Bulan": "2017-09",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7233
+  },
+  {
+   "Bulan": "2017-09",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.6087
+  },
+  {
+   "Bulan": "2017-10",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7233
+  },
+  {
+   "Bulan": "2017-10",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5926
+  },
+  {
+   "Bulan": "2017-11",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7109
+  },
+  {
+   "Bulan": "2017-11",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5875
+  },
+  {
+   "Bulan": "2017-12",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7189
+  },
+  {
+   "Bulan": "2017-12",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5922
+  },
+  {
+   "Bulan": "2018-01",
+   "Metrik": "Accuracy",
+   "Nilai": 0.7197
+  },
+  {
+   "Bulan": "2018-01",
+   "Metrik": "Recall kelas positif",
+   "Nilai": 0.5958
+  }
+ ],
+ "k_kpi": [
+  {
+   "Total Order": 180.519,
+   "Late Rate": "54,83%",
+   "Nilai Penjualan": "$36.784.735",
+   "Order Test Set": 36.259,
+   "Tidak Terdeteksi": 8.151,
+   "Porsi Standard Class": "98,71%",
+   "Accuracy Terbaik": 0.7182,
+   "ROC AUC Terbaik": 0.7714
+  }
+ ],
+ "kpi": {
+  "tampilan": {
+   "Total Order": 180.519,
+   "Late Rate": "54,83%",
+   "Nilai Penjualan": "$36.784.735",
+   "Order Test Set": 36.259,
+   "Tidak Terdeteksi": 8.151,
+   "Porsi Standard Class": "98,71%",
+   "Accuracy Terbaik": 0.7182,
+   "ROC AUC Terbaik": 0.7714
+  },
+  "mentah": {
+   "total_order": 180519,
+   "late_rate": 0.5483,
+   "nilai_penjualan": 36784735,
+   "order_test_set": 36259,
+   "tidak_terdeteksi": 8151,
+   "porsi_standard_class": 0.9871,
+   "accuracy_terbaik": 0.7182,
+   "roc_auc_terbaik": 0.7714
+  }
+ }
+}

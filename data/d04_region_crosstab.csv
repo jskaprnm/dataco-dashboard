@@ -1,0 +1,51 @@
+Order Region,Metrik,Nilai,Satuan,Tampil
+Western Europe,Accuracy,0.7238,rasio,"72,38%"
+Western Europe,Jumlah Order,12351,order,12.351
+Western Europe,Late Rate,0.5539,rasio,"55,39%"
+Western Europe,Recall,0.6031,rasio,"60,31%"
+Western Europe,Tidak Terdeteksi,2715,order,2.715
+Central America,Accuracy,0.7055,rasio,"70,55%"
+Central America,Jumlah Order,5351,order,5.351
+Central America,Late Rate,0.5483,rasio,"54,83%"
+Central America,Recall,0.5535,rasio,"55,35%"
+Central America,Tidak Terdeteksi,1310,order,1.310
+Northern Europe,Accuracy,0.7007,rasio,"70,07%"
+Northern Europe,Jumlah Order,4360,order,4.360
+Northern Europe,Late Rate,0.5312,rasio,"53,12%"
+Northern Europe,Recall,0.6071,rasio,"60,71%"
+Northern Europe,Tidak Terdeteksi,910,order,910
+Southern Europe,Accuracy,0.729,rasio,"72,90%"
+Southern Europe,Jumlah Order,4192,order,4.192
+Southern Europe,Late Rate,0.5499,rasio,"54,99%"
+Southern Europe,Recall,0.6043,rasio,"60,43%"
+Southern Europe,Tidak Terdeteksi,912,order,912
+South America,Accuracy,0.6994,rasio,"69,94%"
+South America,Jumlah Order,2997,order,2.997
+South America,Late Rate,0.5375,rasio,"53,75%"
+South America,Recall,0.5599,rasio,"55,99%"
+South America,Tidak Terdeteksi,709,order,709
+Southeast Asia,Accuracy,0.7113,rasio,"71,13%"
+Southeast Asia,Jumlah Order,1749,order,1.749
+Southeast Asia,Late Rate,0.5563,rasio,"55,63%"
+Southeast Asia,Recall,0.5807,rasio,"58,07%"
+Southeast Asia,Tidak Terdeteksi,408,order,408
+Oceania,Accuracy,0.7201,rasio,"72,01%"
+Oceania,Jumlah Order,1436,order,1.436
+Oceania,Late Rate,0.5515,rasio,"55,15%"
+Oceania,Recall,0.5922,rasio,"59,22%"
+Oceania,Tidak Terdeteksi,323,order,323
+Caribbean,Accuracy,0.7061,rasio,"70,61%"
+Caribbean,Jumlah Order,1388,order,1.388
+Caribbean,Late Rate,0.5065,rasio,"50,65%"
+Caribbean,Recall,0.5562,rasio,"55,62%"
+Caribbean,Tidak Terdeteksi,312,order,312
+Eastern Asia,Accuracy,0.7135,rasio,"71,35%"
+Eastern Asia,Jumlah Order,1316,order,1.316
+Eastern Asia,Late Rate,0.5524,rasio,"55,24%"
+Eastern Asia,Recall,0.5805,rasio,"58,05%"
+Eastern Asia,Tidak Terdeteksi,305,order,305
+South Asia,Accuracy,0.7301,rasio,"73,01%"
+South Asia,Jumlah Order,1119,order,1.119
+South Asia,Late Rate,0.5603,rasio,"56,03%"
+South Asia,Recall,0.6061,rasio,"60,61%"
+South Asia,Tidak Terdeteksi,247,order,247

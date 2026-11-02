@@ -1,0 +1,5 @@
+Shipping Mode,Jumlah Order,Late Rate Aktual,Recall Model,Accuracy,Tidak Terdeteksi,Salah Alarm
+Standard Class,21633,0.3775,0.0148,0.6206,8046,162
+Second Class,7066,0.7615,0.9939,0.7583,33,1675
+First Class,5601,0.9452,0.9938,0.9416,33,294
+Same Day,1959,0.5038,0.9605,0.9592,39,41

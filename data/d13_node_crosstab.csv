@@ -1,0 +1,41 @@
+Node,Metrik,Nilai,Satuan,Tampil
+PR · Lokasi pelanggan,Betweenness,0.3702,skor,"0,3702"
+PR · Lokasi pelanggan,Degree,106,jumlah,106
+PR · Lokasi pelanggan,Jumlah Order,68925,order,68.925
+PR · Lokasi pelanggan,Late Rate,0.5472,rasio,"54,72%"
+NJ · Lokasi pelanggan,Betweenness,0.2773,skor,"0,2773"
+NJ · Lokasi pelanggan,Degree,27,jumlah,27
+NJ · Lokasi pelanggan,Jumlah Order,2619,order,2.619
+NJ · Lokasi pelanggan,Late Rate,0.525,rasio,"52,50%"
+TX · Lokasi pelanggan,Betweenness,0.2438,skor,"0,2438"
+TX · Lokasi pelanggan,Degree,44,jumlah,44
+TX · Lokasi pelanggan,Jumlah Order,8285,order,8.285
+TX · Lokasi pelanggan,Late Rate,0.5504,rasio,"55,04%"
+CA · Lokasi pelanggan,Betweenness,0.2311,skor,"0,2311"
+CA · Lokasi pelanggan,Degree,77,jumlah,77
+CA · Lokasi pelanggan,Jumlah Order,28487,order,28.487
+CA · Lokasi pelanggan,Late Rate,0.5548,rasio,"55,48%"
+Noruega · Negara tujuan,Betweenness,0.2227,skor,"0,2227"
+Noruega · Negara tujuan,Degree,3,jumlah,3
+Noruega · Negara tujuan,Jumlah Order,209,order,209
+Noruega · Negara tujuan,Late Rate,0.4881,rasio,"48,81%"
+Arabia Saudí · Negara tujuan,Betweenness,0.202,skor,"0,2020"
+Arabia Saudí · Negara tujuan,Degree,6,jumlah,6
+Arabia Saudí · Negara tujuan,Jumlah Order,632,order,632
+Arabia Saudí · Negara tujuan,Late Rate,0.557,rasio,"55,70%"
+NY · Lokasi pelanggan,Betweenness,0.1388,skor,"0,1388"
+NY · Lokasi pelanggan,Degree,53,jumlah,53
+NY · Lokasi pelanggan,Jumlah Order,10632,order,10.632
+NY · Lokasi pelanggan,Late Rate,0.5373,rasio,"53,73%"
+Bélgica · Negara tujuan,Betweenness,0.1002,skor,"0,1002"
+Bélgica · Negara tujuan,Degree,4,jumlah,4
+Bélgica · Negara tujuan,Jumlah Order,413,order,413
+Bélgica · Negara tujuan,Late Rate,0.552,rasio,"55,20%"
+Argentina · Negara tujuan,Betweenness,0.0904,skor,"0,0904"
+Argentina · Negara tujuan,Degree,12,jumlah,12
+Argentina · Negara tujuan,Jumlah Order,1584,order,1.584
+Argentina · Negara tujuan,Late Rate,0.5139,rasio,"51,39%"
+Nicaragua · Negara tujuan,Betweenness,0.0786,skor,"0,0786"
+Nicaragua · Negara tujuan,Degree,18,jumlah,18
+Nicaragua · Negara tujuan,Jumlah Order,2764,order,2.764
+Nicaragua · Negara tujuan,Late Rate,0.5561,rasio,"55,61%"
