@@ -471,7 +471,24 @@
   var tab1 = { modes: [] };
 
   function renderTab1() {
-    guard(['chart-tren-volume', 'chart-tren-late'], ['d01_tren_bulanan'], renderTren);
+    guard(['chart-tren-volume', 'chart-tren-late'], ['d01_tren_bulanan'], function () {
+      // Opsi periode dibangun dari tahun yang benar-benar ada di data (tanpa bulan yang tidak tersedia).
+      var sel = $('select-periode');
+      if (sel && !sel.options.length) {
+        var years = unique(D.d01_tren_bulanan.map(function (r) { return monthParts(r.Bulan).y; }));
+        sel.appendChild(el('option', { value: '', text: 'Semua Periode' }));
+        years.forEach(function (y) {
+          var months = D.d01_tren_bulanan.filter(function (r) { return monthParts(r.Bulan).y === y; });
+          var only = months.length === 1 ? ' (' + monthLong(months[0].Bulan).split(' ')[0] + ' saja)' : '';
+          sel.appendChild(el('option', { value: y, text: y + only }));
+        });
+        sel.addEventListener('change', function () {
+          tab1.periode = sel.value || null;
+          renderTren();
+        });
+      }
+      renderTren();
+    });
     guard(['chart-moda'], ['d02_moda'], function () {
       var modes = col(D.d02_moda, 'Shipping Mode');
       var ms = multiSelect('ms-moda-ringkasan', 'lbl-moda-ringkasan', 'moda', modes, function (sel) {
@@ -481,46 +498,79 @@
         renderModaChart();
       });
       tab1.modes = ms.get();
-      $('reset-ringkasan').addEventListener('click', ms.reset);
+      $('reset-ringkasan').addEventListener('click', function () {
+        ms.reset();
+        var sel = $('select-periode');
+        if (sel) { sel.value = ''; tab1.periode = null; renderTren(); }
+      });
       renderModaChart();
     });
     guard(['chart-geo'], ['d16_geo'], renderGeo);
   }
 
+  // Filter periode: tahun yang dipilih, atau null untuk semua. Hanya memengaruhi dua grafik tren.
+  tab1.periode = null;
+
   function renderTren() {
-    var rows = D.d01_tren_bulanan;
-    var x = rows.map(function (r) { return monthShort(r.Bulan); });
-    // Pada layar sempit, beri label per tahun (lebih pendek) agar tidak saling tindih;
-    // pada layar lebar, label tiap kuartal. Tickvals memakai string kategori yang sama dengan x.
-    var narrow = window.matchMedia && window.matchMedia('(max-width: 720px)').matches;
-    var tickvals = [], ticktext = [];
-    rows.forEach(function (r, i) {
-      var p = monthParts(r.Bulan);
-      if (narrow ? p.m === 0 : i % 3 === 0) { tickvals.push(x[i]); ticktext.push(narrow ? p.y : monthShort(r.Bulan)); }
+    var all = D.d01_tren_bulanan;
+    var rows = tab1.periode ? all.filter(function (r) { return monthParts(r.Bulan).y === tab1.periode; }) : all;
+    if (!rows.length) rows = all;
+    // Pakai sumbu waktu asli (YYYY-MM-01) agar Plotly menata jarak label sesuai lebar plot,
+    // bukan per kategori. Label otomatis menipis pada kartu yang sempit.
+    var dates = rows.map(function (r) { return r.Bulan + '-01'; });
+    var span = rows.length;              // jumlah bulan yang tampil
+    var single = rows.length === 1;
+    // Kerapatan label mengikuti lebar plot nyata (bukan hanya lebar layar): tiap label butuh
+    // ~70px. Jadi kartu sempit otomatis memakai interval lebih lebar (mis. tahunan).
+    var plotW = $('chart-tren-volume') ? $('chart-tren-volume').clientWidth || 320 : 320;
+    var maxTicks = Math.max(3, Math.floor(plotW / 70));
+    var monthStep = single ? 1 : Math.max(1, Math.ceil(span / maxTicks));
+    // Bulatkan ke interval rapi: 1, 2, 3, 6, atau kelipatan 12 bulan.
+    [1, 2, 3, 6, 12, 24].some(function (s) { if (monthStep <= s) { monthStep = s; return true; } return false; });
+    var annual = monthStep >= 12;
+    var xAxis = axis('', {
+      type: 'date', tickangle: 0, showgrid: false,
+      tickformat: annual ? '%Y' : (monthStep >= 3 ? '%b %Y' : '%b %y'),
+      dtick: single ? undefined : (annual ? 'M12' : 'M' + monthStep),
+      ticklabelmode: 'period'
     });
-    var xAxis = axis('Bulan', { type: 'category', tickangle: 0, showgrid: false, tickmode: 'array', tickvals: tickvals, ticktext: ticktext });
+    if (single) { xAxis.tickvals = dates; xAxis.ticktext = [monthLong(rows[0].Bulan)]; }
+
     plot('chart-tren-volume', [{
-      type: 'scatter', mode: 'lines', x: x, y: col(rows, 'Jumlah Order'),
+      type: 'scatter', mode: single ? 'markers' : 'lines', x: dates, y: col(rows, 'Jumlah Order'),
       customdata: rows.map(function (r) { return [monthLong(r.Bulan), fmtInt(r['Jumlah Order'])]; }),
       hovertemplate: '<b>%{customdata[0]}</b><br>Jumlah Order: %{customdata[1]}<extra></extra>',
       line: { color: C.blue, width: 2.5, shape: 'spline', smoothing: 0.6 },
-      fill: 'tozeroy', fillcolor: 'rgba(43,108,163,0.10)'
+      marker: { color: C.navy, size: single ? 10 : 4 },
+      fill: single ? undefined : 'tozeroy', fillcolor: 'rgba(43,108,163,0.10)'
     }], {
-      hovermode: 'x', xaxis: xAxis,
-      yaxis: axis('Jumlah Order', { tickformat: ',d', rangemode: 'tozero' })
+      hovermode: 'x', margin: { l: 4, r: 12, t: 6, b: 6 }, xaxis: xAxis,
+      yaxis: axis('Jumlah Order', { tickformat: '~s', rangemode: 'tozero' })
     });
 
-    var lay = { hovermode: 'x', xaxis: xAxis, yaxis: axis('Late Rate (%)', { tickformat: '.0%' }) };
-    if (!isMissing(K.late_rate)) {
-      lay.shapes = [{ type: 'line', xref: 'paper', x0: 0, x1: 1, yref: 'y', y0: K.late_rate, y1: K.late_rate, line: { color: C.gray, width: 1, dash: 'dash' } }];
-      lay.annotations = [{ xref: 'paper', x: 0, xanchor: 'left', yref: 'y', y: K.late_rate, yanchor: 'bottom', showarrow: false,
-        text: 'Keseluruhan ' + fmtPct(K.late_rate), font: { size: 11, color: C.gray } }];
+    // Garis acuan late rate. Untuk periode terfilter, hitung ulang dari bobot Jumlah Order
+    // (bukan rata-rata sederhana) agar benar secara matematis; untuk semua periode, pakai angka KPI.
+    var refVal, refLabel;
+    if (tab1.periode) {
+      var totOrder = sum(rows, 'Jumlah Order');
+      var totLate = rows.reduce(function (s, r) { return s + r['Late Rate'] * r['Jumlah Order']; }, 0);
+      refVal = totOrder ? totLate / totOrder : null;
+      refLabel = 'Rata-rata ' + tab1.periode + ' ' + fmtPct(refVal);
+    } else {
+      refVal = K.late_rate;
+      refLabel = 'Keseluruhan ' + fmtPct(refVal);
+    }
+    var lay = { hovermode: 'x', margin: { l: 4, r: 12, t: 6, b: 6 }, xaxis: xAxis, yaxis: axis('Late Rate (%)', { tickformat: '.0%' }) };
+    if (!isMissing(refVal)) {
+      lay.shapes = [{ type: 'line', xref: 'paper', x0: 0, x1: 1, yref: 'y', y0: refVal, y1: refVal, line: { color: C.gray, width: 1, dash: 'dash' } }];
+      lay.annotations = [{ xref: 'paper', x: 0, xanchor: 'left', yref: 'y', y: refVal, yanchor: 'bottom', showarrow: false,
+        text: refLabel, font: { size: 11, color: C.gray } }];
     }
     plot('chart-tren-late', [{
-      type: 'scatter', mode: 'lines+markers', x: x, y: col(rows, 'Late Rate'),
+      type: 'scatter', mode: 'lines+markers', x: dates, y: col(rows, 'Late Rate'),
       customdata: rows.map(function (r) { return [monthLong(r.Bulan), fmtPct(r['Late Rate']), fmtInt(r['Jumlah Order'])]; }),
       hovertemplate: '<b>%{customdata[0]}</b><br>Late Rate: %{customdata[1]}<br>Jumlah Order: %{customdata[2]}<extra></extra>',
-      line: { color: C.navy, width: 2 }, marker: { color: C.navy, size: 4 }
+      line: { color: C.navy, width: 2 }, marker: { color: C.navy, size: single ? 9 : 4 }
     }], lay);
   }
 

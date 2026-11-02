@@ -54,6 +54,10 @@
         </div>
         <div class="toolbar" role="group" aria-label="Filter ringkasan eksekutif">
           <div class="toolbar__item">
+            <label class="toolbar__label" for="select-periode" id="lbl-periode">Periode</label>
+            <select class="select select--period" id="select-periode"></select>
+          </div>
+          <div class="toolbar__item">
             <span class="toolbar__label" id="lbl-moda-ringkasan">Moda pengiriman</span>
             <details class="ms" id="ms-moda-ringkasan"></details>
           </div>
@@ -61,8 +65,9 @@
           <details class="info">
             <summary class="info__btn" aria-label="Cakupan filter">i</summary>
             <div class="info__pop">
-              <p><strong>Berlaku untuk:</strong> Late Rate per Moda.</p>
-              <p><strong>Tidak berlaku untuk:</strong> kartu KPI, kedua grafik tren, dan peta, karena datanya tidak dirinci per moda.</p>
+              <p><strong>Periode:</strong> memengaruhi Tren Volume Order dan Tren Late Rate.</p>
+              <p><strong>Moda pengiriman:</strong> memengaruhi Late Rate per Moda.</p>
+              <p><strong>Tidak terpengaruh:</strong> kartu KPI dan peta, karena datanya tidak dirinci per bulan atau per moda.</p>
             </div>
           </details>
           <p class="sr-only" id="filter-ringkasan-status" aria-live="polite"></p>
