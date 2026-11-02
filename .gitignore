@@ -1,1 +1,20 @@
+# OS & editor artifacts
 .DS_Store
+*.swp
+*~
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+
+# Local environment
+.env
+.env.local
+
+# Dependencies (not used by this static project, excluded as a safeguard)
+node_modules/
+
+# Local Kiro workspace settings and development prompts (not needed at runtime)
+.kiro/
+PROMPT_KIRO.md
