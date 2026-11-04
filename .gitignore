@@ -14,7 +14,3 @@
 
 # Dependencies (not used by this static project, excluded as a safeguard)
 node_modules/
-
-# Local Kiro workspace settings and development prompts (not needed at runtime)
-.kiro/
-PROMPT_KIRO.md
