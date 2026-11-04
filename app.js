@@ -187,12 +187,12 @@
     node.innerHTML = '';
     node.appendChild(el('div', { className: 'chart-message', text: text }));
   }
-  function plot(id, data, lay) {
+  function plot(id, data, lay, cfg) {
     var node = $(id);
     if (!node) return null;
     if (!HAS_PLOTLY) { message(id, 'Grafik tidak tersedia karena pustaka grafik gagal dimuat.'); return null; }
     if (!node.data) node.innerHTML = '';
-    return Plotly.react(node, data, layout(lay), CONFIG);
+    return Plotly.react(node, data, layout(lay), cfg ? Object.assign({}, CONFIG, cfg) : CONFIG);
   }
   function sizeRef(maxVal, maxPx) { return 2 * maxVal / (maxPx * maxPx); }
 
@@ -596,6 +596,17 @@
   function renderGeo() {
     var rows = D.d16_geo;
     var maxOrder = maxOf(col(rows, 'Jumlah Order'));
+    // Tampilan awal peta (disimpan agar tombol "Atur ulang" bisa mengembalikannya).
+    var home = { lon: [-162, -60], lat: [14, 52] };
+    var geo = {
+      projection: { type: 'mercator' },
+      lonaxis: { range: home.lon.slice() }, lataxis: { range: home.lat.slice() },
+      showland: true, landcolor: '#EBF0F6',
+      showcountries: true, countrycolor: '#D6DEE8',
+      showsubunits: true, subunitcolor: '#DFE6EE',
+      coastlinecolor: '#C9D3DE', showocean: true, oceancolor: '#FFFFFF',
+      showlakes: false, showframe: false, bgcolor: 'rgba(0,0,0,0)'
+    };
     plot('chart-geo', [{
       type: 'scattergeo', mode: 'markers',
       lat: col(rows, 'Latitude'), lon: col(rows, 'Longitude'),
@@ -605,20 +616,32 @@
         size: col(rows, 'Jumlah Order'), sizemode: 'area', sizeref: sizeRef(maxOrder, 44), sizemin: 4,
         color: col(rows, 'Late Rate'), colorscale: SEQ_SCALE, showscale: true, opacity: 0.88,
         line: { color: '#FFFFFF', width: 0.8 },
-        colorbar: { title: { text: 'Late Rate', side: 'right', font: { size: 11.5, color: C.gray } }, tickformat: '.0%', thickness: 8, len: 0.7, outlinewidth: 0, tickfont: { size: 10.5, color: C.gray } }
+        colorbar: { title: { text: 'Late Rate', side: 'right', font: { size: 11.5, color: C.gray } }, tickformat: '.0%', thickness: 8, len: 0.8, outlinewidth: 0, tickfont: { size: 10.5, color: C.gray } }
       }
     }], {
       margin: { l: 0, r: 0, t: 0, b: 0 },
-      geo: {
-        projection: { type: 'mercator' },
-        lonaxis: { range: [-162, -60] }, lataxis: { range: [14, 52] },
-        showland: true, landcolor: '#EBF0F6',
-        showcountries: true, countrycolor: '#D6DEE8',
-        showsubunits: true, subunitcolor: '#DFE6EE',
-        coastlinecolor: '#C9D3DE', showocean: true, oceancolor: '#FFFFFF',
-        showlakes: false, showframe: false, bgcolor: 'rgba(0,0,0,0)'
-      }
+      dragmode: 'pan',
+      geo: geo
+    }, {
+      // Khusus peta: aktifkan zoom scroll, geser (pan), dan sediakan tombol zoom/reset bawaan Plotly.
+      scrollZoom: true, displayModeBar: true,
+      modeBarButtonsToRemove: ['select2d', 'lasso2d', 'toImage'],
+      displaylogo: false
     });
+
+    // Tombol "Atur ulang tampilan" untuk mengembalikan zoom/geser peta ke tampilan awal.
+    var gd = $('chart-geo');
+    var card = gd.closest('.card');
+    if (card && !card.querySelector('.map-reset')) {
+      var head = card.querySelector('.card__head');
+      var btn = el('button', { type: 'button', className: 'btn btn--sm map-reset', text: 'Atur ulang tampilan' });
+      btn.addEventListener('click', function () {
+        if (HAS_PLOTLY && gd.data) Plotly.relayout(gd, { 'geo.lonaxis.range': home.lon.slice(), 'geo.lataxis.range': home.lat.slice(), 'geo.projection.scale': 1 });
+      });
+      // Sisipkan tombol sebelum ikon info agar selaras dengan judul kartu.
+      var info = head.querySelector('.info');
+      head.insertBefore(btn, info || null);
+    }
   }
 
   // =====================================================================
